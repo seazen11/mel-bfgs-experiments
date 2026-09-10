@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the experiments."
+title: "MEL-BFGS: Reproducible Numerical Experiments"
+type: software
+authors:
+  - name: "seazen11"
+repository-code: "https://github.com/seazen11/mel-bfgs-experiments"
+url: "https://github.com/seazen11/mel-bfgs-experiments"
+version: 1.0.0
+license: MIT

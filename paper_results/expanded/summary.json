@@ -1,0 +1,2081 @@
+[
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "fixed",
+    "method": "lbfgs",
+    "median": 0.03661669998837169,
+    "median_run": 0,
+    "times": [
+      0.03661669998837169,
+      0.044163800004753284,
+      0.0353361000015866
+    ],
+    "iterations": [
+      9,
+      9,
+      9
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.5543122344752192e-15,
+      1.5543122344752192e-15,
+      1.5543122344752192e-15
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "fixed",
+    "method": "newton",
+    "median": 0.03218670000205748,
+    "median_run": 1,
+    "times": [
+      0.03293280000798404,
+      0.03218670000205748,
+      0.03208960000483785
+    ],
+    "iterations": [
+      5,
+      5,
+      5
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "fixed",
+    "method": "direct_lbfgs",
+    "median": 0.14942919999884907,
+    "median_run": 2,
+    "times": [
+      0.1513488999917172,
+      0.14824439999938477,
+      0.14942919999884907
+    ],
+    "iterations": [
+      166,
+      166,
+      166
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.675593659608239e-14,
+      9.675593659608239e-14,
+      9.675593659608239e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "fixed",
+    "method": "direct_bfgs",
+    "median": 0.13908799999626353,
+    "median_run": 1,
+    "times": [
+      0.1319836999900872,
+      0.13908799999626353,
+      0.14141349999408703
+    ],
+    "iterations": [
+      113,
+      113,
+      113
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.833422716567839e-14,
+      6.833422716567839e-14,
+      6.833422716567839e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "fixed",
+    "method": "agd",
+    "median": 0.4685479000036139,
+    "median_run": 0,
+    "times": [
+      0.4685479000036139,
+      0.4947965000028489,
+      0.457238499991945
+    ],
+    "iterations": [
+      872,
+      872,
+      872
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.920642002863133e-14,
+      8.920642002863133e-14,
+      8.920642002863133e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "original",
+    "method": "lbfgs",
+    "median": 0.1724411000031978,
+    "median_run": 2,
+    "times": [
+      0.17028839999693446,
+      0.19296939999912865,
+      0.1724411000031978
+    ],
+    "iterations": [
+      6,
+      6,
+      6
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.6161773752632058e-07,
+      1.6161773752632058e-07,
+      1.6161773752632058e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "original",
+    "method": "newton",
+    "median": 0.2000215999869397,
+    "median_run": 0,
+    "times": [
+      0.2000215999869397,
+      0.18540719999873545,
+      0.20017809999990277
+    ],
+    "iterations": [
+      4,
+      4,
+      4
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.5289566690501744e-07,
+      1.5289566690501744e-07,
+      1.5289566690501744e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "original",
+    "method": "direct_lbfgs",
+    "median": 0.7210373000125401,
+    "median_run": 2,
+    "times": [
+      0.7433516000019154,
+      0.7166150999983074,
+      0.7210373000125401
+    ],
+    "iterations": [
+      805,
+      805,
+      805
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.136165358136772e-07,
+      9.136165358136772e-07,
+      9.136165358136772e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "original",
+    "method": "ista",
+    "median": 0.01567379999323748,
+    "median_run": 1,
+    "times": [
+      0.017424100005882792,
+      0.01567379999323748,
+      0.014334200008306652
+    ],
+    "iterations": [
+      27,
+      27,
+      27
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      7.903262574937564e-07,
+      7.903262574937564e-07,
+      7.903262574937564e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "original",
+    "method": "fista",
+    "median": 0.012229999992996454,
+    "median_run": 2,
+    "times": [
+      0.012360099994111806,
+      0.010733799994341098,
+      0.012229999992996454
+    ],
+    "iterations": [
+      20,
+      20,
+      20
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.6183465634256322e-07,
+      1.6183465634256322e-07,
+      1.6183465634256322e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed0",
+    "test": "original",
+    "method": "rfista",
+    "median": 0.006819199988967739,
+    "median_run": 2,
+    "times": [
+      0.006774299996322952,
+      0.010221100004855543,
+      0.006819199988967739
+    ],
+    "iterations": [
+      13,
+      13,
+      13
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      3.4490878320081464e-07,
+      3.4490878320081464e-07,
+      3.4490878320081464e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "fixed",
+    "method": "lbfgs",
+    "median": 0.05279109999537468,
+    "median_run": 0,
+    "times": [
+      0.05279109999537468,
+      0.05342939999536611,
+      0.04700770000636112
+    ],
+    "iterations": [
+      11,
+      11,
+      11
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      4.6629367034256575e-15,
+      4.6629367034256575e-15,
+      4.6629367034256575e-15
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "fixed",
+    "method": "newton",
+    "median": 0.05218530001002364,
+    "median_run": 0,
+    "times": [
+      0.05218530001002364,
+      0.052361599999130704,
+      0.04188060000888072
+    ],
+    "iterations": [
+      4,
+      4,
+      4
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.099120794378905e-14,
+      1.099120794378905e-14,
+      1.099120794378905e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "fixed",
+    "method": "direct_lbfgs",
+    "median": 0.15896109999448527,
+    "median_run": 0,
+    "times": [
+      0.15896109999448527,
+      0.14654679999512155,
+      0.17747029999736696
+    ],
+    "iterations": [
+      194,
+      194,
+      194
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.93729534823251e-14,
+      8.93729534823251e-14,
+      8.93729534823251e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "fixed",
+    "method": "direct_bfgs",
+    "median": 0.11291850000270642,
+    "median_run": 1,
+    "times": [
+      0.11423520000244025,
+      0.11291850000270642,
+      0.10616999999911059
+    ],
+    "iterations": [
+      94,
+      94,
+      94
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      5.839773109528323e-14,
+      5.839773109528323e-14,
+      5.839773109528323e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "fixed",
+    "method": "agd",
+    "median": 0.5353402000037022,
+    "median_run": 0,
+    "times": [
+      0.5353402000037022,
+      0.535431600001175,
+      0.5181554000009783
+    ],
+    "iterations": [
+      968,
+      968,
+      968
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.481304630298837e-14,
+      9.481304630298837e-14,
+      9.481304630298837e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "original",
+    "method": "lbfgs",
+    "median": 0.11865219999162946,
+    "median_run": 2,
+    "times": [
+      0.11267999999108724,
+      0.13070280000101775,
+      0.11865219999162946
+    ],
+    "iterations": [
+      6,
+      6,
+      6
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      2.353584140912801e-07,
+      2.353584140912801e-07,
+      2.353584140912801e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "original",
+    "method": "newton",
+    "median": 0.1398345000052359,
+    "median_run": 1,
+    "times": [
+      0.14070459999493323,
+      0.1398345000052359,
+      0.12759119999827817
+    ],
+    "iterations": [
+      3,
+      3,
+      3
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      2.703801250669713e-07,
+      2.703801250669713e-07,
+      2.703801250669713e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "original",
+    "method": "direct_lbfgs",
+    "median": 0.506891099998029,
+    "median_run": 0,
+    "times": [
+      0.506891099998029,
+      0.5317869999998948,
+      0.48463980000815354
+    ],
+    "iterations": [
+      544,
+      544,
+      544
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.71088097156958e-07,
+      9.71088097156958e-07,
+      9.71088097156958e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "original",
+    "method": "ista",
+    "median": 0.011564500004169531,
+    "median_run": 2,
+    "times": [
+      0.011479300010250881,
+      0.011831199997686781,
+      0.011564500004169531
+    ],
+    "iterations": [
+      23,
+      23,
+      23
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.506961760579301e-07,
+      8.506961760579301e-07,
+      8.506961760579301e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "original",
+    "method": "fista",
+    "median": 0.010046499999589287,
+    "median_run": 1,
+    "times": [
+      0.009592100002919324,
+      0.010046499999589287,
+      0.010921799999778159
+    ],
+    "iterations": [
+      19,
+      19,
+      19
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.0024564189858864e-07,
+      1.0024564189858864e-07,
+      1.0024564189858864e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed1",
+    "test": "original",
+    "method": "rfista",
+    "median": 0.00733609999588225,
+    "median_run": 0,
+    "times": [
+      0.00733609999588225,
+      0.00637089999509044,
+      0.00830149999819696
+    ],
+    "iterations": [
+      13,
+      13,
+      13
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      3.7329574209543637e-07,
+      3.7329574209543637e-07,
+      3.7329574209543637e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "fixed",
+    "method": "lbfgs",
+    "median": 0.03147040000476409,
+    "median_run": 1,
+    "times": [
+      0.027379899998777546,
+      0.03147040000476409,
+      0.03430359999765642
+    ],
+    "iterations": [
+      9,
+      9,
+      9
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      3.2529534621517087e-14,
+      3.2529534621517087e-14,
+      3.2529534621517087e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "fixed",
+    "method": "newton",
+    "median": 0.03432109999994282,
+    "median_run": 2,
+    "times": [
+      0.03740020000259392,
+      0.032492300000740215,
+      0.03432109999994282
+    ],
+    "iterations": [
+      4,
+      4,
+      4
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.106226635438361e-15,
+      6.106226635438361e-15,
+      6.106226635438361e-15
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "fixed",
+    "method": "direct_lbfgs",
+    "median": 0.13586920000670943,
+    "median_run": 1,
+    "times": [
+      0.14610909999464639,
+      0.13586920000670943,
+      0.13299270000425167
+    ],
+    "iterations": [
+      163,
+      163,
+      163
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.447997939560082e-14,
+      9.447997939560082e-14,
+      9.447997939560082e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "fixed",
+    "method": "direct_bfgs",
+    "median": 0.13633609999669716,
+    "median_run": 1,
+    "times": [
+      0.13373980000324082,
+      0.13633609999669716,
+      0.14668640001036692
+    ],
+    "iterations": [
+      112,
+      112,
+      112
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.661338147750939e-14,
+      6.661338147750939e-14,
+      6.661338147750939e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "fixed",
+    "method": "agd",
+    "median": 0.5063112000061665,
+    "median_run": 1,
+    "times": [
+      0.5194457999896258,
+      0.5063112000061665,
+      0.5060496000078274
+    ],
+    "iterations": [
+      937,
+      937,
+      937
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.781064846947629e-14,
+      9.781064846947629e-14,
+      9.781064846947629e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "original",
+    "method": "lbfgs",
+    "median": 0.12110479999682866,
+    "median_run": 2,
+    "times": [
+      0.12838929999270476,
+      0.1202664000011282,
+      0.12110479999682866
+    ],
+    "iterations": [
+      5,
+      5,
+      5
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      4.783278453324158e-07,
+      4.783278453324158e-07,
+      4.783278453324158e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "original",
+    "method": "newton",
+    "median": 0.17262579999805894,
+    "median_run": 2,
+    "times": [
+      0.1692501999932574,
+      0.18554880000010598,
+      0.17262579999805894
+    ],
+    "iterations": [
+      3,
+      3,
+      3
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      2.7625224396921055e-07,
+      2.7625224396921055e-07,
+      2.7625224396921055e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "original",
+    "method": "direct_lbfgs",
+    "median": 0.6377833000005921,
+    "median_run": 2,
+    "times": [
+      0.6426644000021042,
+      0.6213629999983823,
+      0.6377833000005921
+    ],
+    "iterations": [
+      698,
+      698,
+      698
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.56340749089135e-07,
+      8.56340749089135e-07,
+      8.56340749089135e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "original",
+    "method": "ista",
+    "median": 0.012283499992918223,
+    "median_run": 1,
+    "times": [
+      0.010998300000210293,
+      0.012283499992918223,
+      0.013287299996591173
+    ],
+    "iterations": [
+      21,
+      21,
+      21
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.196214913378739e-07,
+      6.196214913378739e-07,
+      6.196214913378739e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "original",
+    "method": "fista",
+    "median": 0.00640350001049228,
+    "median_run": 0,
+    "times": [
+      0.00640350001049228,
+      0.00786290000542067,
+      0.006275899999309331
+    ],
+    "iterations": [
+      12,
+      12,
+      12
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.12833730651019e-07,
+      6.12833730651019e-07,
+      6.12833730651019e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.0_seed2",
+    "test": "original",
+    "method": "rfista",
+    "median": 0.005669699996360578,
+    "median_run": 0,
+    "times": [
+      0.005669699996360578,
+      0.006714899995131418,
+      0.005503599997609854
+    ],
+    "iterations": [
+      10,
+      10,
+      10
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      3.6419735871540126e-07,
+      3.6419735871540126e-07,
+      3.6419735871540126e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "fixed",
+    "method": "lbfgs",
+    "median": 0.12763149999955203,
+    "median_run": 2,
+    "times": [
+      0.15015539999876637,
+      0.12683720000495669,
+      0.12763149999955203
+    ],
+    "iterations": [
+      35,
+      35,
+      35
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      5.806466418789569e-14,
+      5.806466418789569e-14,
+      5.806466418789569e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "fixed",
+    "method": "newton",
+    "median": 0.04944699999759905,
+    "median_run": 0,
+    "times": [
+      0.04944699999759905,
+      0.055444699988584034,
+      0.04372249999141786
+    ],
+    "iterations": [
+      4,
+      4,
+      4
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.9253938401489e-14,
+      9.9253938401489e-14,
+      9.9253938401489e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "fixed",
+    "method": "direct_lbfgs",
+    "median": 0.2638127000100212,
+    "median_run": 2,
+    "times": [
+      0.26724729999841657,
+      0.2587185000011232,
+      0.2638127000100212
+    ],
+    "iterations": [
+      346,
+      346,
+      346
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.958700530887654e-14,
+      9.958700530887654e-14,
+      9.958700530887654e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "fixed",
+    "method": "direct_bfgs",
+    "median": 0.18517599999904633,
+    "median_run": 1,
+    "times": [
+      0.1619974000059301,
+      0.18517599999904633,
+      0.1899536000128137
+    ],
+    "iterations": [
+      146,
+      146,
+      146
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.661338147750939e-14,
+      6.661338147750939e-14,
+      6.661338147750939e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "fixed",
+    "method": "agd",
+    "median": 0.5587981999997282,
+    "median_run": 1,
+    "times": [
+      0.5699838000000454,
+      0.5587981999997282,
+      0.5447724000114249
+    ],
+    "iterations": [
+      1013,
+      1013,
+      1013
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.914291609902648e-14,
+      9.914291609902648e-14,
+      9.914291609902648e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "original",
+    "method": "lbfgs",
+    "median": 0.42436710000038147,
+    "median_run": 0,
+    "times": [
+      0.42436710000038147,
+      0.43252130001201294,
+      0.4089878999948269
+    ],
+    "iterations": [
+      17,
+      17,
+      17
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      3.9947298891007677e-07,
+      3.9947298891007677e-07,
+      3.9947298891007677e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "original",
+    "method": "newton",
+    "median": 0.6258975000091596,
+    "median_run": 0,
+    "times": [
+      0.6258975000091596,
+      0.6837844999972731,
+      0.620254900000873
+    ],
+    "iterations": [
+      3,
+      3,
+      3
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.21281259280704e-07,
+      9.21281259280704e-07,
+      9.21281259280704e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "original",
+    "method": "direct_lbfgs",
+    "median": 1.9682448000094155,
+    "median_run": 0,
+    "times": [
+      1.9682448000094155,
+      1.9899060000025202,
+      1.9052295000001322
+    ],
+    "iterations": [
+      2284,
+      2284,
+      2284
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.73875316886874e-07,
+      8.73875316886874e-07,
+      8.73875316886874e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "original",
+    "method": "ista",
+    "median": 0.3462200999929337,
+    "median_run": 1,
+    "times": [
+      0.34659190000093076,
+      0.3462200999929337,
+      0.3399782999913441
+    ],
+    "iterations": [
+      687,
+      687,
+      687
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.866733954311258e-07,
+      9.866733954311258e-07,
+      9.866733954311258e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "original",
+    "method": "fista",
+    "median": 0.09088620000693481,
+    "median_run": 0,
+    "times": [
+      0.09088620000693481,
+      0.07750839999062009,
+      0.09148519999871496
+    ],
+    "iterations": [
+      157,
+      157,
+      157
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.895141806464224e-07,
+      8.895141806464224e-07,
+      8.895141806464224e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed0",
+    "test": "original",
+    "method": "rfista",
+    "median": 0.05072539999673609,
+    "median_run": 0,
+    "times": [
+      0.05072539999673609,
+      0.047188199998345226,
+      0.052844999998342246
+    ],
+    "iterations": [
+      95,
+      95,
+      95
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.264785980622747e-07,
+      9.264785980622747e-07,
+      9.264785980622747e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "fixed",
+    "method": "lbfgs",
+    "median": 0.21396929999173153,
+    "median_run": 0,
+    "times": [
+      0.21396929999173153,
+      0.20475989999249578,
+      0.21871870000904892
+    ],
+    "iterations": [
+      56,
+      56,
+      56
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      5.695444116327053e-14,
+      5.695444116327053e-14,
+      5.695444116327053e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "fixed",
+    "method": "newton",
+    "median": 0.05829660000745207,
+    "median_run": 0,
+    "times": [
+      0.05829660000745207,
+      0.06371370000124443,
+      0.05271109999739565
+    ],
+    "iterations": [
+      3,
+      3,
+      3
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      4.4297898682543746e-14,
+      4.4297898682543746e-14,
+      4.4297898682543746e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "fixed",
+    "method": "direct_lbfgs",
+    "median": 0.30345649999799207,
+    "median_run": 0,
+    "times": [
+      0.30345649999799207,
+      0.30256580001150724,
+      0.31095990000176243
+    ],
+    "iterations": [
+      394,
+      394,
+      394
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      5.484501741648273e-14,
+      5.484501741648273e-14,
+      5.484501741648273e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "fixed",
+    "method": "direct_bfgs",
+    "median": 0.17844760000298265,
+    "median_run": 0,
+    "times": [
+      0.17844760000298265,
+      0.18410680000670254,
+      0.17519500000344124
+    ],
+    "iterations": [
+      152,
+      152,
+      152
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      7.360778653264788e-14,
+      7.360778653264788e-14,
+      7.360778653264788e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "fixed",
+    "method": "agd",
+    "median": 0.5333290000125999,
+    "median_run": 2,
+    "times": [
+      0.5102618999953847,
+      0.5385226999933366,
+      0.5333290000125999
+    ],
+    "iterations": [
+      958,
+      958,
+      958
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.614531393253856e-14,
+      9.614531393253856e-14,
+      9.614531393253856e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "original",
+    "method": "lbfgs",
+    "median": 0.362227100005839,
+    "median_run": 1,
+    "times": [
+      0.37684329999319743,
+      0.362227100005839,
+      0.3530101999931503
+    ],
+    "iterations": [
+      27,
+      27,
+      27
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.250015950395095e-07,
+      8.250015950395095e-07,
+      8.250015950395095e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "original",
+    "method": "newton",
+    "median": 0.22218699999211822,
+    "median_run": 1,
+    "times": [
+      0.24197760000242852,
+      0.22218699999211822,
+      0.20439609998720698
+    ],
+    "iterations": [
+      3,
+      3,
+      3
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.1988339976287676e-07,
+      1.1988339976287676e-07,
+      1.1988339976287676e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "original",
+    "method": "direct_lbfgs",
+    "median": 0.6759665999998106,
+    "median_run": 0,
+    "times": [
+      0.6759665999998106,
+      0.6684213999978965,
+      0.6904414000018733
+    ],
+    "iterations": [
+      821,
+      821,
+      821
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.676046354156753e-07,
+      9.676046354156753e-07,
+      9.676046354156753e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "original",
+    "method": "ista",
+    "median": 0.24875950001296587,
+    "median_run": 2,
+    "times": [
+      0.23043839998717885,
+      0.26469470000301953,
+      0.24875950001296587
+    ],
+    "iterations": [
+      472,
+      472,
+      472
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.874108308771667e-07,
+      9.874108308771667e-07,
+      9.874108308771667e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "original",
+    "method": "fista",
+    "median": 0.08948360000795219,
+    "median_run": 0,
+    "times": [
+      0.08948360000795219,
+      0.0925967000075616,
+      0.08540219999849796
+    ],
+    "iterations": [
+      170,
+      170,
+      170
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.258638432596555e-07,
+      9.258638432596555e-07,
+      9.258638432596555e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed1",
+    "test": "original",
+    "method": "rfista",
+    "median": 0.04199109999171924,
+    "median_run": 2,
+    "times": [
+      0.04703030000382569,
+      0.039588999992702156,
+      0.04199109999171924
+    ],
+    "iterations": [
+      78,
+      78,
+      78
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.884128246984147e-07,
+      9.884128246984147e-07,
+      9.884128246984147e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "fixed",
+    "method": "lbfgs",
+    "median": 0.17617970000719652,
+    "median_run": 0,
+    "times": [
+      0.17617970000719652,
+      0.18983109999680892,
+      0.16416649999155197
+    ],
+    "iterations": [
+      45,
+      45,
+      45
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      4.3298697960381105e-14,
+      4.3298697960381105e-14,
+      4.3298697960381105e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "fixed",
+    "method": "newton",
+    "median": 0.05308070000319276,
+    "median_run": 1,
+    "times": [
+      0.05452259999583475,
+      0.05308070000319276,
+      0.049724199998308904
+    ],
+    "iterations": [
+      4,
+      4,
+      4
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "fixed",
+    "method": "direct_lbfgs",
+    "median": 0.3346905000071274,
+    "median_run": 2,
+    "times": [
+      0.3320895999931963,
+      0.34037829999579117,
+      0.3346905000071274
+    ],
+    "iterations": [
+      411,
+      411,
+      411
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.059419880941277e-14,
+      9.059419880941277e-14,
+      9.059419880941277e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "fixed",
+    "method": "direct_bfgs",
+    "median": 0.21621420000155922,
+    "median_run": 2,
+    "times": [
+      0.2008878999913577,
+      0.228528899999219,
+      0.21621420000155922
+    ],
+    "iterations": [
+      164,
+      164,
+      164
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      7.51620987671231e-14,
+      7.51620987671231e-14,
+      7.51620987671231e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "fixed",
+    "method": "agd",
+    "median": 0.5631052999960957,
+    "median_run": 0,
+    "times": [
+      0.5631052999960957,
+      0.5386620999925071,
+      0.5635699999984354
+    ],
+    "iterations": [
+      986,
+      986,
+      986
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.9253938401489e-14,
+      9.9253938401489e-14,
+      9.9253938401489e-14
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "original",
+    "method": "lbfgs",
+    "median": 0.34400760001153685,
+    "median_run": 0,
+    "times": [
+      0.34400760001153685,
+      0.3476007999997819,
+      0.3326269999961369
+    ],
+    "iterations": [
+      23,
+      23,
+      23
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.959225641369528e-07,
+      8.959225641369528e-07,
+      8.959225641369528e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "original",
+    "method": "newton",
+    "median": 0.32529120000253897,
+    "median_run": 0,
+    "times": [
+      0.32529120000253897,
+      0.28367119999893475,
+      0.34273920000123326
+    ],
+    "iterations": [
+      3,
+      3,
+      3
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      1.284190396244611e-07,
+      1.284190396244611e-07,
+      1.284190396244611e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "original",
+    "method": "direct_lbfgs",
+    "median": 1.389382099994691,
+    "median_run": 2,
+    "times": [
+      1.4722984999971231,
+      1.3851309000019683,
+      1.389382099994691
+    ],
+    "iterations": [
+      1579,
+      1579,
+      1579
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.825751009495676e-07,
+      9.825751009495676e-07,
+      9.825751009495676e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "original",
+    "method": "ista",
+    "median": 0.3247884000011254,
+    "median_run": 2,
+    "times": [
+      0.3275590999983251,
+      0.31579220001003705,
+      0.3247884000011254
+    ],
+    "iterations": [
+      606,
+      606,
+      606
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.880205695811384e-07,
+      9.880205695811384e-07,
+      9.880205695811384e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "original",
+    "method": "fista",
+    "median": 0.1055587999871932,
+    "median_run": 0,
+    "times": [
+      0.1055587999871932,
+      0.0940002999996068,
+      0.11025870000594296
+    ],
+    "iterations": [
+      182,
+      182,
+      182
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.700350063202023e-07,
+      9.700350063202023e-07,
+      9.700350063202023e-07
+    ]
+  },
+  {
+    "problem": "synthetic_rho0.9_seed2",
+    "test": "original",
+    "method": "rfista",
+    "median": 0.03868160001002252,
+    "median_run": 0,
+    "times": [
+      0.03868160001002252,
+      0.03834840000490658,
+      0.04054020000330638
+    ],
+    "iterations": [
+      77,
+      77,
+      77
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      8.266637487874817e-07,
+      8.266637487874817e-07,
+      8.266637487874817e-07
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "fixed",
+    "method": "lbfgs",
+    "median": 0.07973490000586025,
+    "median_run": 1,
+    "times": [
+      0.0793716000043787,
+      0.07973490000586025,
+      0.08278900000732392
+    ],
+    "iterations": [
+      28,
+      28,
+      28
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      3.4083846855992306e-14,
+      3.4083846855992306e-14,
+      3.4083846855992306e-14
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "fixed",
+    "method": "newton",
+    "median": 0.030183800001395866,
+    "median_run": 0,
+    "times": [
+      0.030183800001395866,
+      0.029707599998801015,
+      0.030983499993453734
+    ],
+    "iterations": [
+      6,
+      6,
+      6
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      5.551115123125783e-17,
+      5.551115123125783e-17,
+      5.551115123125783e-17
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "fixed",
+    "method": "direct_lbfgs",
+    "median": 0.30308169999625534,
+    "median_run": 2,
+    "times": [
+      0.2737114999908954,
+      0.3178823999915039,
+      0.30308169999625534
+    ],
+    "iterations": [
+      398,
+      398,
+      398
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.670042544485113e-14,
+      9.670042544485113e-14,
+      9.670042544485113e-14
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "fixed",
+    "method": "direct_bfgs",
+    "median": 0.08224709999922197,
+    "median_run": 1,
+    "times": [
+      0.0820493999926839,
+      0.08224709999922197,
+      0.0900407000008272
+    ],
+    "iterations": [
+      91,
+      91,
+      91
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.980904991380157e-14,
+      9.980904991380157e-14,
+      9.980904991380157e-14
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "fixed",
+    "method": "agd",
+    "median": 0.49066719999245834,
+    "median_run": 1,
+    "times": [
+      0.5340666999982204,
+      0.49066719999245834,
+      0.4841471999970963
+    ],
+    "iterations": [
+      1017,
+      1017,
+      1017
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.392486788328824e-14,
+      9.392486788328824e-14,
+      9.392486788328824e-14
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "original",
+    "method": "lbfgs",
+    "median": 0.11428359999263193,
+    "median_run": 1,
+    "times": [
+      0.1158173000003444,
+      0.11428359999263193,
+      0.09882010000001173
+    ],
+    "iterations": [
+      15,
+      15,
+      15
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      3.445880721320016e-07,
+      3.445880721320016e-07,
+      3.445880721320016e-07
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "original",
+    "method": "newton",
+    "median": 0.231981300006737,
+    "median_run": 2,
+    "times": [
+      0.2421730999922147,
+      0.21699760000046808,
+      0.231981300006737
+    ],
+    "iterations": [
+      5,
+      5,
+      5
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.483000170032227e-08,
+      6.483000170032227e-08,
+      6.483000170032227e-08
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "original",
+    "method": "direct_lbfgs",
+    "median": 0.872113100005663,
+    "median_run": 0,
+    "times": [
+      0.872113100005663,
+      0.8313895999890519,
+      0.8868173999944702
+    ],
+    "iterations": [
+      1035,
+      1035,
+      1035
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      6.691594123253708e-07,
+      6.691594123253708e-07,
+      6.691594123253708e-07
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "original",
+    "method": "ista",
+    "median": 0.26536330000089947,
+    "median_run": 0,
+    "times": [
+      0.26536330000089947,
+      0.29903019999619573,
+      0.24777020000328775
+    ],
+    "iterations": [
+      594,
+      594,
+      594
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.916333219561757e-07,
+      9.916333219561757e-07,
+      9.916333219561757e-07
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "original",
+    "method": "fista",
+    "median": 0.0692673999874387,
+    "median_run": 1,
+    "times": [
+      0.06610660000296775,
+      0.0692673999874387,
+      0.07356190000427887
+    ],
+    "iterations": [
+      152,
+      152,
+      152
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.9891231403193e-07,
+      9.9891231403193e-07,
+      9.9891231403193e-07
+    ]
+  },
+  {
+    "problem": "wdbc",
+    "test": "original",
+    "method": "rfista",
+    "median": 0.03483849999611266,
+    "median_run": 1,
+    "times": [
+      0.0321265999955358,
+      0.03483849999611266,
+      0.03968969998823013
+    ],
+    "iterations": [
+      73,
+      73,
+      73
+    ],
+    "statuses": [
+      "converged",
+      "converged",
+      "converged"
+    ],
+    "gaps": [
+      9.187867565652041e-07,
+      9.187867565652041e-07,
+      9.187867565652041e-07
+    ]
+  }
+]

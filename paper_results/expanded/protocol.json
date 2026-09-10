@@ -1,0 +1,55 @@
+{
+  "fixed_methods": [
+    "lbfgs",
+    "newton",
+    "direct_lbfgs",
+    "direct_bfgs",
+    "agd"
+  ],
+  "original_methods": [
+    "lbfgs",
+    "newton",
+    "direct_lbfgs",
+    "ista",
+    "fista",
+    "rfista"
+  ],
+  "warmup": 1,
+  "measured_runs": 3,
+  "curve_instances": [
+    "synthetic_rho0.9_seed0",
+    "wdbc"
+  ],
+  "representative": "median-time run for each method and problem",
+  "fixed_alpha": 0.01,
+  "fixed_gap": 1e-13,
+  "original_gap": 1e-06,
+  "original_alpha": "1e-6/(n*lambda^2)",
+  "order": "method order rotated over repetitions",
+  "threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "<local BLAS library>/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "<local BLAS library>/libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "source_sha256": "9c50fa5b954b75def5ca27e60a240c1ad624bedd96dd2ddcc08b49cb6edcabe0",
+  "final_plot_source_sha256": "4836d32c5cfb4ad011d73e8f43750c221a750629e37571cc3a427b496820f83c",
+  "core_source_sha256": "f6f34612ff2d8919b00084ca7e9be421d1bd3ee2ede94bb86896729cfbade68d",
+  "plot_refresh_note": "Only plot axis limits and font sizes changed after the measured runs; numerical updates are unchanged."
+}
