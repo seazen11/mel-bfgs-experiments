@@ -1,3 +1,7 @@
+> **v2.0.0 更新：**已新增统一原问题原始—对偶间隙下的 192 次实验，171 次达标、21 次未达标。全部失败保留。Continuation 在双方均成功的 10 组中有 9 组更快，但未显示相对 R-FISTA 的总体优势；标量度量在一组消融中也更快。下文旧实验作为历史档案保留。
+>
+> 最新内容：[运行说明](docs/VALUE_BENCHMARKS.md)、[完整结果](docs/review/EXPERIMENT_RESULTS.md)、[理论审查](docs/review/THEORY_AUDIT.md)、[文献对照](docs/review/LITERATURE.md)、[原始记录与图表](paper_results/value_review)。
+
 # MEL-BFGS 可复现实验
 
 [English](README.md) · [正式结果](docs/RESULTS.zh-CN.md) · [数据说明](docs/DATA.md)

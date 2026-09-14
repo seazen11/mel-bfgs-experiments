@@ -1,0 +1,962 @@
+[
+  {
+    "file": "C0_MEL_r0.json",
+    "independent_gap": 3.9947298905579354e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_CONT_r0.json",
+    "independent_gap": 4.114479895470091e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_PQN_r0.json",
+    "independent_gap": 2.4054443333726416e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_R-FISTA_r0.json",
+    "independent_gap": 9.264785981767665e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_PN_r0.json",
+    "independent_gap": 7.62501114678904e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_MEL-PN_r0.json",
+    "independent_gap": 9.212812593015207e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_CONT_r1.json",
+    "independent_gap": 4.114479895470091e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_PQN_r1.json",
+    "independent_gap": 2.4054443333726416e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_R-FISTA_r1.json",
+    "independent_gap": 9.264785981767665e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_PN_r1.json",
+    "independent_gap": 7.62501114678904e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_MEL-PN_r1.json",
+    "independent_gap": 9.212812593015207e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_MEL_r1.json",
+    "independent_gap": 3.9947298905579354e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_PQN_r2.json",
+    "independent_gap": 2.4054443333726416e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_R-FISTA_r2.json",
+    "independent_gap": 9.264785981767665e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_PN_r2.json",
+    "independent_gap": 7.62501114678904e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_MEL-PN_r2.json",
+    "independent_gap": 9.212812593015207e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_MEL_r2.json",
+    "independent_gap": 3.9947298905579354e-07,
+    "status": "converged"
+  },
+  {
+    "file": "C0_CONT_r2.json",
+    "independent_gap": 4.114479895470091e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_MEL_r0.json",
+    "independent_gap": 1.6161773750203445e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_CONT_r0.json",
+    "independent_gap": 7.634314425596089e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_PQN_r0.json",
+    "independent_gap": 8.673942241549382e-09,
+    "status": "converged"
+  },
+  {
+    "file": "U0_R-FISTA_r0.json",
+    "independent_gap": 3.4490878321469243e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_PN_r0.json",
+    "independent_gap": 5.643745887295992e-12,
+    "status": "converged"
+  },
+  {
+    "file": "U0_MEL-PN_r0.json",
+    "independent_gap": 1.52895666932773e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_CONT_r1.json",
+    "independent_gap": 7.634314425596089e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_PQN_r1.json",
+    "independent_gap": 8.673942241549382e-09,
+    "status": "converged"
+  },
+  {
+    "file": "U0_R-FISTA_r1.json",
+    "independent_gap": 3.4490878321469243e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_PN_r1.json",
+    "independent_gap": 5.643745887295992e-12,
+    "status": "converged"
+  },
+  {
+    "file": "U0_MEL-PN_r1.json",
+    "independent_gap": 1.52895666932773e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_MEL_r1.json",
+    "independent_gap": 1.6161773750203445e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_PQN_r2.json",
+    "independent_gap": 8.673942241549382e-09,
+    "status": "converged"
+  },
+  {
+    "file": "U0_R-FISTA_r2.json",
+    "independent_gap": 3.4490878321469243e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_PN_r2.json",
+    "independent_gap": 5.643745887295992e-12,
+    "status": "converged"
+  },
+  {
+    "file": "U0_MEL-PN_r2.json",
+    "independent_gap": 1.52895666932773e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_MEL_r2.json",
+    "independent_gap": 1.6161773750203445e-07,
+    "status": "converged"
+  },
+  {
+    "file": "U0_CONT_r2.json",
+    "independent_gap": 7.634314425596089e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL_r0.json",
+    "independent_gap": 6.404025602452235e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_CONT_r0.json",
+    "independent_gap": 7.133443786569438e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_PQN_r0.json",
+    "independent_gap": 4.826371792204104e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_R-FISTA_r0.json",
+    "independent_gap": 9.968570755473222e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_PN_r0.json",
+    "independent_gap": 2.919363197365077e-09,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-PN_r0.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n400_MEL-I_r0.json",
+    "independent_gap": 8.714149859201381e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-GD_r0.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n400_MEL-m5_r0.json",
+    "independent_gap": 9.011816685597362e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-m20_r0.json",
+    "independent_gap": 7.41549698564728e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_CONT_r1.json",
+    "independent_gap": 7.133443786569438e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_PQN_r1.json",
+    "independent_gap": 4.826371792204104e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_R-FISTA_r1.json",
+    "independent_gap": 9.968570755473222e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_PN_r1.json",
+    "independent_gap": 2.919363197365077e-09,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-PN_r1.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n400_MEL-I_r1.json",
+    "independent_gap": 8.714149859201381e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-GD_r1.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n400_MEL-m5_r1.json",
+    "independent_gap": 9.011816685597362e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-m20_r1.json",
+    "independent_gap": 7.41549698564728e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL_r1.json",
+    "independent_gap": 6.404025602452235e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_PQN_r2.json",
+    "independent_gap": 4.826371792204104e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_R-FISTA_r2.json",
+    "independent_gap": 9.968570755473222e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_PN_r2.json",
+    "independent_gap": 2.919363197365077e-09,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-PN_r2.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n400_MEL-I_r2.json",
+    "independent_gap": 8.714149859201381e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-GD_r2.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n400_MEL-m5_r2.json",
+    "independent_gap": 9.011816685597362e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL-m20_r2.json",
+    "independent_gap": 7.41549698564728e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_MEL_r2.json",
+    "independent_gap": 6.404025602452235e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n400_CONT_r2.json",
+    "independent_gap": 7.133443786569438e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_MEL_r0.json",
+    "independent_gap": 8.887574347131444e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_CONT_r0.json",
+    "independent_gap": 8.851691093514705e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_PQN_r0.json",
+    "independent_gap": 7.279781861308995e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_R-FISTA_r0.json",
+    "independent_gap": 9.319578931858002e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_CONT_r1.json",
+    "independent_gap": 8.851691093514705e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_PQN_r1.json",
+    "independent_gap": 7.279781861308995e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_R-FISTA_r1.json",
+    "independent_gap": 9.319578931858002e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_MEL_r1.json",
+    "independent_gap": 8.887574347131444e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_PQN_r2.json",
+    "independent_gap": 7.279781861308995e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_R-FISTA_r2.json",
+    "independent_gap": 9.319578931858002e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_MEL_r2.json",
+    "independent_gap": 8.887574347131444e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n1200_CONT_r2.json",
+    "independent_gap": 8.851691093514705e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_MEL_r0.json",
+    "independent_gap": 0.7338798174054376,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n2400_CONT_r0.json",
+    "independent_gap": 9.082520011482326e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_PQN_r0.json",
+    "independent_gap": 8.330465262138681e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_R-FISTA_r0.json",
+    "independent_gap": 9.844424725662798e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_CONT_r1.json",
+    "independent_gap": 9.082520011482326e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_PQN_r1.json",
+    "independent_gap": 8.330465262138681e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_R-FISTA_r1.json",
+    "independent_gap": 9.844424725662798e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_MEL_r1.json",
+    "independent_gap": 0.7338798174054376,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n2400_PQN_r2.json",
+    "independent_gap": 8.330465262138681e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_R-FISTA_r2.json",
+    "independent_gap": 9.844424725662798e-07,
+    "status": "converged"
+  },
+  {
+    "file": "n2400_MEL_r2.json",
+    "independent_gap": 0.7338798174054376,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "n2400_CONT_r2.json",
+    "independent_gap": 9.082520011482326e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_MEL_r0.json",
+    "independent_gap": 7.400279722867553e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_CONT_r0.json",
+    "independent_gap": 7.554836077886505e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_PQN_r0.json",
+    "independent_gap": 0.0042985223428389325,
+    "status": "Proximal inner iteration budget"
+  },
+  {
+    "file": "ill_R-FISTA_r0.json",
+    "independent_gap": 9.886068462787922e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_PN_r0.json",
+    "independent_gap": 91.85371866163915,
+    "status": "Proximal inner iteration budget"
+  },
+  {
+    "file": "ill_MEL-PN_r0.json",
+    "independent_gap": 91.85371866163915,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "ill_CONT_r1.json",
+    "independent_gap": 7.554836077886505e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_PQN_r1.json",
+    "independent_gap": 0.0042985223428389325,
+    "status": "Proximal inner iteration budget"
+  },
+  {
+    "file": "ill_R-FISTA_r1.json",
+    "independent_gap": 9.886068462787922e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_PN_r1.json",
+    "independent_gap": 91.85371866163915,
+    "status": "Proximal inner iteration budget"
+  },
+  {
+    "file": "ill_MEL-PN_r1.json",
+    "independent_gap": 91.85371866163915,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "ill_MEL_r1.json",
+    "independent_gap": 7.400279722867553e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_PQN_r2.json",
+    "independent_gap": 0.0042985223428389325,
+    "status": "Proximal inner iteration budget"
+  },
+  {
+    "file": "ill_R-FISTA_r2.json",
+    "independent_gap": 9.886068462787922e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_PN_r2.json",
+    "independent_gap": 91.85371866163915,
+    "status": "Proximal inner iteration budget"
+  },
+  {
+    "file": "ill_MEL-PN_r2.json",
+    "independent_gap": 91.85371866163915,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "ill_MEL_r2.json",
+    "independent_gap": 7.400279722867553e-07,
+    "status": "converged"
+  },
+  {
+    "file": "ill_CONT_r2.json",
+    "independent_gap": 7.554836077886505e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_MEL_r0.json",
+    "independent_gap": 6.816477734830628e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_CONT_r0.json",
+    "independent_gap": 7.62196397531556e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_PQN_r0.json",
+    "independent_gap": 3.368998452019101e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_R-FISTA_r0.json",
+    "independent_gap": 8.703178347516105e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_PN_r0.json",
+    "independent_gap": 5.907280914430046e-11,
+    "status": "converged"
+  },
+  {
+    "file": "weak_MEL-PN_r0.json",
+    "independent_gap": 4.4975090991716815e-08,
+    "status": "converged"
+  },
+  {
+    "file": "weak_CONT_r1.json",
+    "independent_gap": 7.62196397531556e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_PQN_r1.json",
+    "independent_gap": 3.368998452019101e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_R-FISTA_r1.json",
+    "independent_gap": 8.703178347516105e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_PN_r1.json",
+    "independent_gap": 5.907280914430046e-11,
+    "status": "converged"
+  },
+  {
+    "file": "weak_MEL-PN_r1.json",
+    "independent_gap": 4.4975090991716815e-08,
+    "status": "converged"
+  },
+  {
+    "file": "weak_MEL_r1.json",
+    "independent_gap": 6.816477734830628e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_PQN_r2.json",
+    "independent_gap": 3.368998452019101e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_R-FISTA_r2.json",
+    "independent_gap": 8.703178347516105e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_PN_r2.json",
+    "independent_gap": 5.907280914430046e-11,
+    "status": "converged"
+  },
+  {
+    "file": "weak_MEL-PN_r2.json",
+    "independent_gap": 4.4975090991716815e-08,
+    "status": "converged"
+  },
+  {
+    "file": "weak_MEL_r2.json",
+    "independent_gap": 6.816477734830628e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak_CONT_r2.json",
+    "independent_gap": 7.62196397531556e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_MEL_r0.json",
+    "independent_gap": 1.27828708572841e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_CONT_r0.json",
+    "independent_gap": 4.605314015296378e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_PQN_r0.json",
+    "independent_gap": 2.513910260515395e-10,
+    "status": "converged"
+  },
+  {
+    "file": "strong_R-FISTA_r0.json",
+    "independent_gap": 5.752502908891975e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_PN_r0.json",
+    "independent_gap": 9.289941682675412e-10,
+    "status": "converged"
+  },
+  {
+    "file": "strong_MEL-PN_r0.json",
+    "independent_gap": 1.285062231110197e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_CONT_r1.json",
+    "independent_gap": 4.605314015296378e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_PQN_r1.json",
+    "independent_gap": 2.513910260515395e-10,
+    "status": "converged"
+  },
+  {
+    "file": "strong_R-FISTA_r1.json",
+    "independent_gap": 5.752502908891975e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_PN_r1.json",
+    "independent_gap": 9.289941682675412e-10,
+    "status": "converged"
+  },
+  {
+    "file": "strong_MEL-PN_r1.json",
+    "independent_gap": 1.285062231110197e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_MEL_r1.json",
+    "independent_gap": 1.27828708572841e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_PQN_r2.json",
+    "independent_gap": 2.513910260515395e-10,
+    "status": "converged"
+  },
+  {
+    "file": "strong_R-FISTA_r2.json",
+    "independent_gap": 5.752502908891975e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_PN_r2.json",
+    "independent_gap": 9.289941682675412e-10,
+    "status": "converged"
+  },
+  {
+    "file": "strong_MEL-PN_r2.json",
+    "independent_gap": 1.285062231110197e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_MEL_r2.json",
+    "independent_gap": 1.27828708572841e-07,
+    "status": "converged"
+  },
+  {
+    "file": "strong_CONT_r2.json",
+    "independent_gap": 4.605314015296378e-07,
+    "status": "converged"
+  },
+  {
+    "file": "tight_MEL_r0.json",
+    "independent_gap": 6.952166422408146e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_CONT_r0.json",
+    "independent_gap": 7.4019449753520705e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_PQN_r0.json",
+    "independent_gap": 5.369736847879447e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_R-FISTA_r0.json",
+    "independent_gap": 9.562751691200022e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_PN_r0.json",
+    "independent_gap": 2.919363197365077e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_MEL-PN_r0.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "tight_CONT_r1.json",
+    "independent_gap": 7.4019449753520705e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_PQN_r1.json",
+    "independent_gap": 5.369736847879447e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_R-FISTA_r1.json",
+    "independent_gap": 9.562751691200022e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_PN_r1.json",
+    "independent_gap": 2.919363197365077e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_MEL-PN_r1.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "tight_MEL_r1.json",
+    "independent_gap": 6.952166422408146e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_PQN_r2.json",
+    "independent_gap": 5.369736847879447e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_R-FISTA_r2.json",
+    "independent_gap": 9.562751691200022e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_PN_r2.json",
+    "independent_gap": 2.919363197365077e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_MEL-PN_r2.json",
+    "independent_gap": 2.7197233896305377,
+    "status": "Inner iteration budget"
+  },
+  {
+    "file": "tight_MEL_r2.json",
+    "independent_gap": 6.952166422408146e-09,
+    "status": "converged"
+  },
+  {
+    "file": "tight_CONT_r2.json",
+    "independent_gap": 7.4019449753520705e-09,
+    "status": "converged"
+  },
+  {
+    "file": "group400_MEL_r0.json",
+    "independent_gap": 5.07606070284522e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_CONT_r0.json",
+    "independent_gap": 7.550255437423214e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_PQN_r0.json",
+    "independent_gap": 3.5839817878920155e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_R-FISTA_r0.json",
+    "independent_gap": 9.319940920543557e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_PN_r0.json",
+    "independent_gap": 2.4723780280011542e-09,
+    "status": "converged"
+  },
+  {
+    "file": "group400_MEL-PN_r0.json",
+    "independent_gap": 1.5363148758024137e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_CONT_r1.json",
+    "independent_gap": 7.550255437423214e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_PQN_r1.json",
+    "independent_gap": 3.5839817878920155e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_R-FISTA_r1.json",
+    "independent_gap": 9.319940920543557e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_PN_r1.json",
+    "independent_gap": 2.4723780280011542e-09,
+    "status": "converged"
+  },
+  {
+    "file": "group400_MEL-PN_r1.json",
+    "independent_gap": 1.5363148758024137e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_MEL_r1.json",
+    "independent_gap": 5.07606070284522e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_PQN_r2.json",
+    "independent_gap": 3.5839817878920155e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_R-FISTA_r2.json",
+    "independent_gap": 9.319940920543557e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_PN_r2.json",
+    "independent_gap": 2.4723780280011542e-09,
+    "status": "converged"
+  },
+  {
+    "file": "group400_MEL-PN_r2.json",
+    "independent_gap": 1.5363148758024137e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_MEL_r2.json",
+    "independent_gap": 5.07606070284522e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group400_CONT_r2.json",
+    "independent_gap": 7.550255437423214e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_MEL_r0.json",
+    "independent_gap": 5.883296863981244e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_CONT_r0.json",
+    "independent_gap": 6.880774451331964e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_PQN_r0.json",
+    "independent_gap": 4.150336185490544e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_R-FISTA_r0.json",
+    "independent_gap": 7.106726629861962e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_CONT_r1.json",
+    "independent_gap": 6.880774451331964e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_PQN_r1.json",
+    "independent_gap": 4.150336185490544e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_R-FISTA_r1.json",
+    "independent_gap": 7.106726629861962e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_MEL_r1.json",
+    "independent_gap": 5.883296863981244e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_PQN_r2.json",
+    "independent_gap": 4.150336185490544e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_R-FISTA_r2.json",
+    "independent_gap": 7.106726629861962e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_MEL_r2.json",
+    "independent_gap": 5.883296863981244e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group1200_CONT_r2.json",
+    "independent_gap": 6.880774451331964e-07,
+    "status": "converged"
+  }
+]

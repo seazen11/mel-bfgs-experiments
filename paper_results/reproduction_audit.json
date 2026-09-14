@@ -1,0 +1,15 @@
+{
+  "historical_linear_threshold_violations": [],
+  "reproduced_settings": 77,
+  "matching_iteration_count_vectors": 77,
+  "reproduction_winners": {
+    "fixed": {
+      "newton": 5,
+      "lbfgs": 2
+    },
+    "original": {
+      "rfista": 6,
+      "fista": 1
+    }
+  }
+}

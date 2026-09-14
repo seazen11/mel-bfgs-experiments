@@ -1,0 +1,10 @@
+# Changelog
+
+## 2.0.0 — 2026-09-14
+
+- Add common-original-gap continuation, direct smoothing, PQN, R-FISTA and PN experiments, with nonoverlapping group penalties and scale/conditioning/regularization/accuracy tests.
+- Retain all 192 measured records, including 21 unsuccessful terminations; add independent gap checks, operation counts, peak process memory and three figure groups.
+- Remove unconditional dense allocation from the new limited-memory solver. Record residual checks and safeguards; no hidden dense fallback.
+- Add primary-source comparison and theory/implementation audit. Outer superlinear rates remain conditional, and stage decay is not total complexity.
+- Reproduce all 231 archived runs and preserve the original v1 results unchanged. Timing rankings are not assumed invariant.
+- Document that no general speed advantage is established; matrix-free PN and stochastic comparisons remain pending.

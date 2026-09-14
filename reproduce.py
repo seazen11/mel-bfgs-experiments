@@ -46,7 +46,27 @@ def verify():
         assert archive.testzip() is None
     print(f'PASS: {len(expected)} file hashes; 77 settings; {count} certified records.')
     print(f'PASS: {directions} nested directions; maximum residual/tolerance = {max_ratio:.6f}.')
-    print('This checks stored records; use smoke or expanded to rerun numerical solvers.')
+    current = ROOT / 'paper_results/value_review'
+    audits = json.loads((current / 'independent_audit.json').read_text())
+    assert len(audits) == 192
+    successes = 0
+    for item in audits:
+        run = json.loads((current / item['file']).read_text())
+        assert run['status'] == item['status']
+        assert abs(run['gap'] - item['independent_gap']) <= 1e-12 * max(1.0, abs(run['gap']))
+        if run['status'] == 'converged':
+            assert item['independent_gap'] <= run['tolerance']
+            successes += 1
+        else:
+            assert item['independent_gap'] > run['tolerance']
+        assert run['dense_fallbacks'] == 0
+    assert successes == 171
+    protocol = json.loads((current / 'protocol.json').read_text())
+    assert hashlib.sha256((ROOT / 'experiments/value_benchmark.py').read_bytes()).hexdigest() == protocol['source_sha256']
+    with zipfile.ZipFile(ROOT / 'paper_results/reproduction_20260914.zip') as archive:
+        assert archive.testzip() is None
+    print('PASS: 192 current terminal records: 171 successes and 21 retained failures.')
+    print('Stored-record checks do not rerun solvers; see docs/VALUE_BENCHMARKS.md.')
 
 
 def main():

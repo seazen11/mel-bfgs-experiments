@@ -1,0 +1,32 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "warmup": "one same-setting warm-up per measured worker, 20 s budget",
+  "repetitions": 3,
+  "measurement_budget_seconds": 45,
+  "process_timeout_seconds": 150,
+  "peak_memory": "OS peak resident working set per fresh worker, includes imports, data preparation and warm-up",
+  "source_sha256": "d77b832b18cdbe3e2fae1d2854b97a4ce367ad5c2b4be681005d223b91e9e234",
+  "skips": "dense PN and MEL-PN excluded above n=400 by declared dense resource budget"
+}

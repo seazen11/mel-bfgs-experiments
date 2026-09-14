@@ -6,9 +6,34 @@
 Reproducible experiments for a **nested Moreau-envelope L-BFGS method** with
 semismooth Newton (SSN) subproblem solves. This repository accompanies the
 MEL-BFGS manuscript and contains solver implementations, raw numerical records,
-four main figure groups, and supporting experiments.
+three current figure groups, four archived figure groups, and supporting experiments.
 
 [中文说明](README.zh-CN.md) · [Data](docs/DATA.md) · [Results](docs/RESULTS.zh-CN.md) · [Provenance](provenance/README.md)
+
+## Evidence update: version 2.0.0
+
+The current campaign uses a common **original primal-dual gap** for every
+method, including all continuation stages. It covers 64 settings and 192
+measured runs: **171 succeed and 21 terminate without reaching the target**.
+All terminal certificates were independently recomputed. Failed times are
+consumed budgets, not solution times.
+
+Continuation is faster than direct small-parameter MEL in 9 of the 10 cases
+where both succeed in all repetitions. R-FISTA has the lowest recorded median
+in all 11 main cases, but its difference from PQN on C0 is below 1% and their
+ranges overlap. A scalar metric also beats L-BFGS on the n400 ablation.
+These results do not support general computational superiority of MEL.
+
+- [Current protocol and executable commands](docs/VALUE_BENCHMARKS.md)
+- [All results and operation counts](docs/review/EXPERIMENT_RESULTS.md)
+- [Theory audit](docs/review/THEORY_AUDIT.md) and [primary-source comparison](docs/review/LITERATURE.md)
+- [Raw records, audit and three figures](paper_results/value_review)
+- [Earlier 231-run reproduction audit](paper_results/reproduction_audit.json)
+
+The two regularizers are the l1 penalty and a nonoverlapping group l2 penalty.
+Dense PN comparisons stop at n=400; matrix-free PN and stochastic baselines
+remain untested. Current PQN/PN implementations are representative deterministic
+models, not the neighboring authors' software. See the protocol for limits.
 
 ## Method and scope
 
@@ -51,7 +76,7 @@ python reproduce.py figures
 ```
 
 `verify` uses only the Python standard library. It checks file integrity,
-all 231 stored stopping certificates, summary consistency, and nested residual
+the 231 archived stopping certificates and all 192 current terminal records, summary consistency, and nested residual
 criteria. `smoke` runs numerical checks and a small nested solve, then exercises
 the four added baselines. Numerical commands download WDBC from UCI if absent
 and verify its checksum. See [offline data instructions](docs/DATA.md).
@@ -60,7 +85,7 @@ and verify its checksum. See [offline data instructions](docs/DATA.md).
 
 | Command | Output and purpose |
 | --- | --- |
-| `python reproduce.py figures` | Regenerate the four main PDF/PNG figures from published traces |
+| `python reproduce.py figures` | Regenerate the four archived PDF/PNG figures from published traces |
 | `python reproduce.py expanded` | Run all 77 settings: one warm-up and three measured repetitions each |
 | `python reproduce.py supporting` | Run the initial suite, local diagnostics, bias tests, compact solves and ablations |
 | `python reproduce.py all` | Run supporting and expanded suites |
@@ -148,7 +173,7 @@ Use GitHub's **Cite this repository** entry or:
   title = {{MEL-BFGS}: Reproducible Numerical Experiments},
   year = {2026},
   howpublished = {\url{https://github.com/seazen11/mel-bfgs-experiments}},
-  note = {Version 1.0.0}
+  note = {Version 2.0.0}
 }
 ```
 
