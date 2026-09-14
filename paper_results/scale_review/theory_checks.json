@@ -1,0 +1,121 @@
+{
+  "sharp_halfspace_example": [
+    {
+      "alpha": 1.0,
+      "w": [
+        -0.6000000000000002,
+        0.8000000000000002
+      ],
+      "z": [
+        0.0,
+        0.8000000000000002
+      ],
+      "gap": 0.0900000000000001,
+      "analytic_gap": 0.09,
+      "certificate": 0.9000000000000004,
+      "gap_over_alpha_squared": 0.0900000000000001,
+      "smoothed_gradient_norm": 4.440892098500626e-16
+    },
+    {
+      "alpha": 0.1,
+      "w": [
+        -0.13043478260869568,
+        0.5652173913043477
+      ],
+      "z": [
+        0.0,
+        0.5652173913043477
+      ],
+      "gap": 0.004253308128544403,
+      "analytic_gap": 0.004253308128544425,
+      "certificate": 0.042533081285444085,
+      "gap_over_alpha_squared": 0.42533081285444024,
+      "smoothed_gradient_norm": 5.551115123125783e-16
+    },
+    {
+      "alpha": 0.01,
+      "w": [
+        -0.01477832512315271,
+        0.5073891625615763
+      ],
+      "z": [
+        0.0,
+        0.5073891625615763
+      ],
+      "gap": 5.459972336140068e-05,
+      "analytic_gap": 5.459972336140166e-05,
+      "certificate": 0.0005459972336140134,
+      "gap_over_alpha_squared": 0.5459972336140068,
+      "smoothed_gradient_norm": 1.1102230246251565e-16
+    },
+    {
+      "alpha": 0.001,
+      "w": [
+        -0.0014977533699450825,
+        0.5007488766849725
+      ],
+      "z": [
+        0.0,
+        0.5007488766849725
+      ],
+      "gap": 5.608162892953666e-07,
+      "analytic_gap": 5.608162892954626e-07,
+      "certificate": 5.608162892953666e-06,
+      "gap_over_alpha_squared": 0.5608162892953666,
+      "smoothed_gradient_norm": 2.482534153247273e-16
+    },
+    {
+      "alpha": 0.0001,
+      "w": [
+        -0.0001499775033744938,
+        0.5000749887516872
+      ],
+      "z": [
+        0.0,
+        0.5000749887516872
+      ],
+      "gap": 5.62331287960612e-09,
+      "analytic_gap": 5.623312879611575e-09,
+      "certificate": 5.62331287961944e-08,
+      "gap_over_alpha_squared": 0.5623312879606119,
+      "smoothed_gradient_norm": 2.482534153247273e-16
+    },
+    {
+      "alpha": 1e-05,
+      "w": [
+        -1.4999775003374947e-05,
+        0.5000074998875016
+      ],
+      "z": [
+        0.0,
+        0.5000074998875016
+      ],
+      "gap": 5.624831253656796e-11,
+      "analytic_gap": 5.624831253796799e-11,
+      "certificate": 5.624831253856633e-10,
+      "gap_over_alpha_squared": 0.5624831253656795,
+      "smoothed_gradient_norm": 3.1401849173675503e-16
+    }
+  ],
+  "forced_failure_safeguard": {
+    "status": "iteration_limit",
+    "initial_gap": 9.714365140488965,
+    "final_gap": 0.0060557032014485635,
+    "updates": 1200,
+    "counts": {
+      "loss_values": 3602,
+      "A_products": 8405,
+      "prox_evaluations": 1201,
+      "certificates": 1201,
+      "AT_products": 4803,
+      "gradients": 3602,
+      "projected_residual_certificates": 1201,
+      "metric_checks": 1200,
+      "reference_gradient_steps": 1200,
+      "reference_fallbacks": 1200,
+      "trial_failures": 1200,
+      "safeguard_checks": 1200
+    }
+  },
+  "note": "Analytic example uses exact half-space proximal map; time/iteration-capped safeguard test reports its actual status."
+}

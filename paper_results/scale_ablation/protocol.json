@@ -1,0 +1,136 @@
+{
+  "source_sha256": "bb74e7b8c49a3b34c669299b0c0cef41bdd00d5d93a50cb834a960b1451fb50c",
+  "main_source_sha256": "57ba5226fa35a1faaf4fbcb859b66a1fdac117712479dc22d8fed09c1b19a955",
+  "repetitions": 3,
+  "warmup_seconds": 2,
+  "measurement_budget_seconds": 45,
+  "note": "Follow-up ablation batch; do not interpret small cross-batch time differences as statistically significant.",
+  "jobs": [
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 0,
+      "file": "s4000_P-CONT-NG_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 1,
+      "file": "s4000_P-CONT-NG_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 2,
+      "file": "s4000_P-CONT-NG_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 0,
+      "file": "s16000_P-CONT-NG_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 1,
+      "file": "s16000_P-CONT-NG_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 2,
+      "file": "s16000_P-CONT-NG_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 0,
+      "file": "weak4000_P-CONT-NG_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 1,
+      "file": "weak4000_P-CONT-NG_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 2,
+      "file": "weak4000_P-CONT-NG_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 0,
+      "file": "group8000_P-CONT-NG_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 1,
+      "file": "group8000_P-CONT-NG_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-NG",
+      "label": "P-CONT-NG",
+      "rep": 2,
+      "file": "group8000_P-CONT-NG_r2.json"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "s4000_P-CONT-NG_r0.json",
+    "gap": 9.458883659836659e-07,
+    "status": "converged"
+  },
+  {
+    "file": "s4000_P-CONT-NG_r1.json",
+    "gap": 9.458883659836659e-07,
+    "status": "converged"
+  },
+  {
+    "file": "s4000_P-CONT-NG_r2.json",
+    "gap": 9.458883659836659e-07,
+    "status": "converged"
+  },
+  {
+    "file": "s16000_P-CONT-NG_r0.json",
+    "gap": 9.639307228179184e-07,
+    "status": "converged"
+  },
+  {
+    "file": "s16000_P-CONT-NG_r1.json",
+    "gap": 9.639307228179184e-07,
+    "status": "converged"
+  },
+  {
+    "file": "s16000_P-CONT-NG_r2.json",
+    "gap": 9.639307228179184e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak4000_P-CONT-NG_r0.json",
+    "gap": 2.9932788028069757e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak4000_P-CONT-NG_r1.json",
+    "gap": 2.9932788028069757e-07,
+    "status": "converged"
+  },
+  {
+    "file": "weak4000_P-CONT-NG_r2.json",
+    "gap": 2.9932788028069757e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group8000_P-CONT-NG_r0.json",
+    "gap": 9.305926426334335e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group8000_P-CONT-NG_r1.json",
+    "gap": 9.305926426334335e-07,
+    "status": "converged"
+  },
+  {
+    "file": "group8000_P-CONT-NG_r2.json",
+    "gap": 9.305926426334335e-07,
+    "status": "converged"
+  }
+]

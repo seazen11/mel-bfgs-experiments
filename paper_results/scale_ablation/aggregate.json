@@ -1,0 +1,42 @@
+[
+  {
+    "case": "s4000",
+    "success": 3,
+    "runs": 3,
+    "seconds": 2.4920447999902535,
+    "min_seconds": 2.096214399993187,
+    "max_seconds": 2.8065459999779705,
+    "median_ssn": 700.0,
+    "median_stages": 2.0
+  },
+  {
+    "case": "s16000",
+    "success": 3,
+    "runs": 3,
+    "seconds": 17.225127100013196,
+    "min_seconds": 17.103884800017113,
+    "max_seconds": 17.298196299991105,
+    "median_ssn": 873.0,
+    "median_stages": 3.0
+  },
+  {
+    "case": "weak4000",
+    "success": 3,
+    "runs": 3,
+    "seconds": 4.454201300017303,
+    "min_seconds": 3.657772600010503,
+    "max_seconds": 4.563339599990286,
+    "median_ssn": 1388.0,
+    "median_stages": 2.0
+  },
+  {
+    "case": "group8000",
+    "success": 3,
+    "runs": 3,
+    "seconds": 2.6963358000211883,
+    "min_seconds": 2.6210346999869216,
+    "max_seconds": 2.7377510000078473,
+    "median_ssn": 252.0,
+    "median_stages": 2.0
+  }
+]

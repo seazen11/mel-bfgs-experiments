@@ -66,7 +66,32 @@ def verify():
     with zipfile.ZipFile(ROOT / 'paper_results/reproduction_20260914.zip') as archive:
         assert archive.testzip() is None
     print('PASS: 192 current terminal records: 171 successes and 21 retained failures.')
-    print('Stored-record checks do not rerun solvers; see docs/VALUE_BENCHMARKS.md.')
+    for directory, expected_count, expected_success, source in [
+        ('scale_review', 165, 156, 'scale_benchmark.py'),
+        ('scale_ablation', 12, 12, 'scale_ablation.py')]:
+        folder = ROOT / 'paper_results' / directory
+        rows = json.loads((folder / 'summary.json').read_text())
+        audit = json.loads((folder / 'independent_audit.json').read_text())
+        assert len(rows) == len(audit) == expected_count
+        mapping = {r['file']: r for r in rows}
+        assert len(mapping) == expected_count
+        assert sum(r['status'] == 'converged' for r in rows) == expected_success
+        for item in audit:
+            run = json.loads((folder / item['file']).read_text())
+            assert run == mapping[item['file']]
+            assert run['status'] == item['status']
+            assert abs(run['gap'] - item['gap']) <= 1e-10 * max(1.0, abs(run['gap']))
+            if run['status'] == 'converged':
+                assert item['gap'] <= run['tolerance']
+            else:
+                assert item['gap'] > run['tolerance']
+            assert run['dense_fallbacks'] == 0
+            assert run['max_linear_residual'] <= 1e-7
+            assert run['max_directional_ratio'] <= .5
+        protocol = json.loads((folder / 'protocol.json').read_text())
+        assert hashlib.sha256((ROOT / 'experiments' / source).read_bytes()).hexdigest() == protocol['source_sha256']
+    print('PASS: 165 scale records (156 successes, 9 failures) and 12 successful ablations.')
+    print('Stored-record checks do not rerun solvers; see docs/SCALE_BENCHMARKS.md.')
 
 
 def main():

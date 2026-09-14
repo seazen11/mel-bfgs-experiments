@@ -1,0 +1,1802 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "warmup_seconds": 2,
+  "measurement_budget_seconds": 45,
+  "inner_iteration_cap": 1000,
+  "outer_iteration_cap": 1200,
+  "repetitions": 3,
+  "source_sha256": "57ba5226fa35a1faaf4fbcb859b66a1fdac117712479dc22d8fed09c1b19a955",
+  "data_sha256": {
+    "group8000.npz": "2eed47e2dc09c6aaccd1ee16f12f5f96cd98c15fb8c886707456bb39d75995af",
+    "rho99.npz": "1ed3d48e7581407a57bde7a4f7ba3af91ea49bd1cf3a67d5db237f516d523e9c",
+    "s16000.npz": "565d721d878be89617d5d99090c3b9a186b8a51ebfd866f95d541597b3c874db",
+    "s4000.npz": "c9d029992c00b0b4ba0a3477d42f43ca96235a0d3f879ce67f7dac2d64cbe9c2",
+    "s8000.npz": "c6beca6c2a673417b081138c55cf5f27d3e5e0edee671e9bb233ddf59725cbfd",
+    "samples2000.npz": "c0053f8b3a50270724a498c53b6df33e3d0dca806a6ccb5e9923f9fd7b1ae383",
+    "seed1.npz": "54caefeb518974db55b9a308d60ce29053f9998ec184cec9ff5db90b6d67c2cf",
+    "tight4000.npz": "c9d029992c00b0b4ba0a3477d42f43ca96235a0d3f879ce67f7dac2d64cbe9c2",
+    "weak4000.npz": "ad885d23e5d1a67dea2272dc16d2b9d353e77fe4702b404b9e24185e1ade1e83"
+  },
+  "jobs": [
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "s4000_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "s4000_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "s4000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "s4000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "s4000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "s4000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "MEL",
+      "label": "MEL",
+      "rep": 0,
+      "file": "s4000_MEL_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "s4000_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "s4000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "s4000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "s4000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "s4000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "MEL",
+      "label": "MEL",
+      "rep": 1,
+      "file": "s4000_MEL_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "s4000_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "s4000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "s4000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "s4000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "s4000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "MEL",
+      "label": "MEL",
+      "rep": 2,
+      "file": "s4000_MEL_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "s4000_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "s4000_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "s8000_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "s8000_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "s8000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "s8000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "s8000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "s8000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "s8000_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "s8000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "s8000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "s8000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "s8000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "s8000_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "s8000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "s8000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "s8000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "s8000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "s8000_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s8000",
+        "n": 8000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "s8000_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "s16000_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "s16000_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "s16000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "s16000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "s16000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "s16000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "s16000_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "s16000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "s16000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "s16000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "s16000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "s16000_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "s16000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "s16000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "s16000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "s16000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "s16000_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "s16000_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "seed1_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "seed1_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "seed1_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "seed1_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "seed1_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "seed1_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "seed1_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "seed1_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "seed1_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "seed1_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "seed1_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "seed1_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "seed1_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "seed1_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "seed1_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "seed1_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "seed1_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "seed1",
+        "n": 4000,
+        "seed": 1
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "seed1_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "rho99_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "rho99_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "rho99_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "rho99_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "rho99_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "rho99_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "rho99_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "rho99_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "rho99_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "rho99_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "rho99_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "rho99_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "rho99_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "rho99_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "rho99_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "rho99_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "rho99_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "rho99",
+        "n": 4000,
+        "rho": 0.99
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "rho99_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "weak4000_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "weak4000_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "weak4000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "weak4000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "weak4000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "weak4000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "weak4000_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "weak4000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "weak4000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "weak4000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "weak4000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "weak4000_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "weak4000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "weak4000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "weak4000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "weak4000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "weak4000_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "weak4000_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "tight4000_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "tight4000_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "tight4000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "tight4000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "tight4000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "tight4000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "tight4000_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "tight4000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "tight4000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "tight4000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "tight4000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "tight4000_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "tight4000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "tight4000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "tight4000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "tight4000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "tight4000_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "tight4000",
+        "n": 4000,
+        "tol": 1e-08
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "tight4000_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "group8000_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "group8000_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "group8000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "group8000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "group8000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "group8000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "group8000_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "group8000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "group8000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "group8000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "group8000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "group8000_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "group8000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "group8000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "group8000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "group8000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "group8000_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "group8000_CONT-P_r2.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 0,
+      "file": "samples2000_CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 0,
+      "file": "samples2000_CONT-P_r0.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "samples2000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "samples2000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "samples2000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "samples2000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 1,
+      "file": "samples2000_CONT-P_r1.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "samples2000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "samples2000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "samples2000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "samples2000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 1,
+      "file": "samples2000_CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "samples2000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "samples2000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "samples2000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "samples2000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "CONT",
+      "label": "CONT",
+      "rep": 2,
+      "file": "samples2000_CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "samples2000",
+        "n": 4000,
+        "N": 2000
+      },
+      "method": "CONT-P",
+      "label": "CONT-P",
+      "rep": 2,
+      "file": "samples2000_CONT-P_r2.json"
+    }
+  ]
+}

@@ -6,9 +6,34 @@
 Reproducible experiments for a **nested Moreau-envelope L-BFGS method** with
 semismooth Newton (SSN) subproblem solves. This repository accompanies the
 MEL-BFGS manuscript and contains solver implementations, raw numerical records,
-three current figure groups, four archived figure groups, and supporting experiments.
+three current figure groups, four historical figure groups, multiple review campaigns, and supporting experiments.
 
 [中文说明](README.zh-CN.md) · [Data](docs/DATA.md) · [Results](docs/RESULTS.zh-CN.md) · [Provenance](provenance/README.md)
+
+## Latest study: version 2.1.0
+
+The scale campaign now reaches **16,000 variables and 2,000 samples**, and adds
+matrix-free proximal Newton, projected continuation, and a safeguard ablation.
+There are **165 main records (156 successes, 9 failures)** and **12 successful
+follow-up ablations**. All 177 returned points were independently checked at
+the same original primal-dual tolerance.
+
+P-CONT improves on CONT in 8/9 settings but is never the fastest main method.
+R-FISTA has the lowest recorded median in seven settings; PQN leads two.
+Matrix-free PN succeeds on every setting. Weak regularization exposes a
+stage-rule cost that remains after removing the reference safeguard.
+
+- [Run the expanded study](docs/SCALE_BENCHMARKS.md)
+- [Complete scale results](docs/SCALE_RESULTS.md) and [safeguard ablation](docs/SCALE_ABLATION.md)
+- [Theory progress and limitations](docs/PROJECTED_THEORY.md)
+- [Raw main records and three figures](paper_results/scale_review), [ablation records](paper_results/scale_ablation)
+
+The manuscript now proves a squared smoothing-parameter error bound for the
+returned proximal point without a globally Lipschitz regularizer, and a
+conservative total-work bound for a **separate safeguarded P-CONT variant**.
+This is not an optimal complexity claim or a fixed-memory superlinear theorem.
+The proof fragment is in [projected_continuation.tex](docs/projected_continuation.tex).
+The original v1/v2 archives are retained; timing batches must not be pooled.
 
 ## Evidence update: version 2.0.0
 
@@ -76,7 +101,7 @@ python reproduce.py figures
 ```
 
 `verify` uses only the Python standard library. It checks file integrity,
-the 231 archived stopping certificates and all 192 current terminal records, summary consistency, and nested residual
+the 231 historical records, 192 first-review records, and 177 scale/ablation terminal records, summary consistency, and nested residual
 criteria. `smoke` runs numerical checks and a small nested solve, then exercises
 the four added baselines. Numerical commands download WDBC from UCI if absent
 and verify its checksum. See [offline data instructions](docs/DATA.md).
@@ -173,7 +198,7 @@ Use GitHub's **Cite this repository** entry or:
   title = {{MEL-BFGS}: Reproducible Numerical Experiments},
   year = {2026},
   howpublished = {\url{https://github.com/seazen11/mel-bfgs-experiments}},
-  note = {Version 2.0.0}
+  note = {Version 2.1.0}
 }
 ```
 

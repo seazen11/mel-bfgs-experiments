@@ -1,3 +1,7 @@
+> **v2.1.0 更新：**规模扩大至16,000维和2,000样本，新增矩阵自由PN和投影continuation。165次主测量中156次达标、9次失败；12次保障消融全部达标。P-CONT在8/9组中快于CONT，但没有一组总体最快。新增投影误差与有界试探工作定理，不声称固定内存外层无条件超线性。
+>
+> [运行说明](docs/SCALE_BENCHMARKS.md) · [完整结果](docs/SCALE_RESULTS.md) · [消融](docs/SCALE_ABLATION.md) · [理论推进及下一步方向](docs/PROJECTED_THEORY.md)。下文旧批次按原样保留。
+
 > **v2.0.0 更新：**已新增统一原问题原始—对偶间隙下的 192 次实验，171 次达标、21 次未达标。全部失败保留。Continuation 在双方均成功的 10 组中有 9 组更快，但未显示相对 R-FISTA 的总体优势；标量度量在一组消融中也更快。下文旧实验作为历史档案保留。
 >
 > 最新内容：[运行说明](docs/VALUE_BENCHMARKS.md)、[完整结果](docs/review/EXPERIMENT_RESULTS.md)、[理论审查](docs/review/THEORY_AUDIT.md)、[文献对照](docs/review/LITERATURE.md)、[原始记录与图表](paper_results/value_review)。

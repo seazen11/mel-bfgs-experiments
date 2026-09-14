@@ -1,0 +1,124 @@
+\subsection{Certified projected continuation}\label{sec:certified-continuation}
+The pointwise certificate can be made into a terminating algorithm. This requires a global strong-convexity constant for $f$, but no global Lipschitz bound for $h$. It also requires a progress safeguard; merely changing the stage tolerance in the original algorithm does not give the work bound below. Nesterov smoothing and adaptive continuation already have complexity analyses~\cite{nesterov2005smooth,trandinh2016adaptive,zheng2016continuation}. The purpose here is narrower: to control a returned proximal point and bounded Newton trials when $h$ may be extended-valued.
+
+Assume that $f$ is $\mu$-strongly convex and has an $L_f$-Lipschitz gradient on $\mathbb R^n$, $h$ is proper, closed and convex, and its Euclidean proximal map is computed exactly. Let $x^*$ minimize $F$ and $u^*=-\nabla f(x^*)\in\partial h(x^*)$. Such a minimizer exists under these assumptions. Fix $\alpha_0>0$, $0<\rho<1$, $\kappa>0$, and an anchor $w_0\in\operatorname{dom}h$. All constants needed by the algorithm are $\mu,L_f,\alpha_0,\rho,\kappa$; $u^*$ appears only in the analysis.
+
+\begin{algorithm}[H]
+\caption{Safeguarded projected continuation (P-CONT)}\label{alg:pcont}
+Set $\alpha=\alpha_0$ and $w=w_0$\;
+\While{no point has been returned}{
+Compute $z=p_\alpha(w)$, $u=(w-z)/\alpha$, and $r=\nabla f(w)+u$\;
+\If{$\|\nabla f(z)+u\|^2/(2\mu)\le\varepsilon$}{return $z$\;}
+\eIf{$\|r\|\le\kappa\alpha$}{
+Set $\alpha=\rho\alpha$\;
+If $\Phi_\alpha(w)>\Phi_\alpha(w_0)$, reset $w=w_0$\;
+}{
+Set $L_\alpha=L_f+1/\alpha$ and $w_g=w-r/L_\alpha$\;
+Construct one quasi-Newton trial $\widehat w$ with bounded inner and line-search work\;
+If the trial fails, or $\Phi_\alpha(\widehat w)>\Phi_\alpha(w_g)$, set $\widehat w=w_g$\;
+Set $w=\widehat w$\;
+}
+}
+\end{algorithm}
+An available valid original primal--dual gap may terminate the algorithm earlier. It is always evaluated at the point actually returned. Trial construction may use the earlier model and SSN, but the guarantee below does not assume its success or a Dennis--Mor\'e condition. Failed trials incur cost and are counted.
+
+\begin{theorem}[Projected stage accuracy without a Lipschitz regularizer]\label{thm:projected-stage}
+Under the assumptions of Section~\ref{sec:certified-continuation}, let $0<\alpha\le\alpha_0$, $z=p_\alpha(w)$, $u=(w-z)/\alpha$, and $\|\nabla f(w)+u\|\le\kappa\alpha$. Define
+\[
+M_u=\|u^*\|+\frac{\kappa\sqrt{\alpha_0}}{2\sqrt\mu},\qquad C_{\rm rec}=\kappa+L_fM_u.
+\]
+Then $\|u\|\le M_u$ and
+\begin{equation}\label{eq:quadratic-stage}
+F(z)-F^*\le \frac{\|\nabla f(z)+u\|^2}{2\mu}
+\le \frac{C_{\rm rec}^2\alpha^2}{2\mu}.
+\end{equation}
+The order $\alpha^2$ cannot be improved uniformly over this class, even for an exact smoothed minimizer and a half-space indicator. The bound is for $z$, not $w$.
+\end{theorem}
+The proof and a sharp example are in Appendix~\ref{app:projected-stage}. Unlike the bound $\alpha L_h^2/2$, this estimate does not use a dimension-wide Lipschitz constant for $h$. Its constants can still depend on the problem through $\mu,L_f$ and $\|u^*\|$; no dimension-independent performance guarantee is implied.
+
+\begin{theorem}[Finite termination and work of the safeguarded method]\label{thm:projected-work}
+Use Algorithm~\ref{alg:pcont} in exact arithmetic. Suppose each trial has a fixed upper bound on its number of oracle calls and linear-algebra operations, independently of $\alpha$ and $\varepsilon$, and is discarded if that bound is reached. Set
+\[
+D=F(w_0)-F^*+\frac{\alpha_0}{2}\|u^*\|^2,\quad
+\alpha_j=\alpha_0\rho^j,\quad L_j=L_f+1/\alpha_j.
+\]
+Let $J_\varepsilon$ be the smallest nonnegative integer with $C_{\rm rec}\alpha_{J_\varepsilon}\le\sqrt{2\mu\varepsilon}$. The algorithm returns an $\varepsilon$-accurate point by stage $J_\varepsilon$. Each stage needs at most
+\begin{equation}\label{eq:stage-work}
+K_j=1+\left\lceil\frac{L_j}{\mu}\log_+\!\left(\frac{2L_jD}{\kappa^2\alpha_j^2}\right)\right\rceil
+\end{equation}
+accepted updates, where $\log_+(a)=\max\{0,\log a\}$ for $a>0$ and $\log_+(0)=0$. Thus the total accepted updates are at most $\sum_{j=0}^{J_\varepsilon}K_j$, which is
+$O(\varepsilon^{-1/2}\log(1/\varepsilon))$ as $\varepsilon\downarrow0$, with the problem and algorithm constants fixed. The same order bounds the number of oracle calls when the trial budget is fixed. For the diagonal or fixed-size block base solves used here, a bounded-trial update costs
+\[
+O\bigl(\mathcal C_f(n)+\mathcal C_h(n)+\mathcal C_{\rm prox}(n)+n\ell^2+\ell^3\bigr),
+\]
+where the oracle terms cover loss/gradient, regularizer-value, and proximal evaluations, respectively, up to the fixed trial and backtracking budgets. These costs include metric reconstruction, spectral checks, the reference step and certificates.
+\end{theorem}
+The proof is in Appendix~\ref{app:projected-work}. This is a conservative safeguard bound, not a faster complexity rate than direct strongly convex proximal-gradient methods. It does not transfer to CONT, which lacks the reference decrease test. It also does not remove the conditional nature of the earlier outer superlinear theorem. A finite experiment may reach its declared time or iteration budget before the theoretical bound, and must then report failure.
+
+
+\subsection{Proof of Theorem~\ref{thm:projected-stage}}\label{app:projected-stage}
+\begin{proof}
+Write $d=w-x^*$ and $r=\nabla f(w)+u$. Strong monotonicity of $\nabla f$ and monotonicity of $\partial h$ give
+\[
+\mu\|d\|^2\le(r-u+u^*)^Td,
+\qquad (u-u^*)^T(z-x^*)\ge0.
+\]
+Since $d=z-x^*+\alpha u$, combining these inequalities yields
+\[
+\alpha(\|u\|^2-\langle u^*,u\rangle)
+\le r^Td-\mu\|d\|^2\le\frac{\|r\|^2}{4\mu}.
+\]
+Therefore $\|u\|^2-\|u^*\|\|u\|\le\kappa^2\alpha/(4\mu)$. The positive root of this quadratic is bounded by
+$\|u^*\|+\kappa\sqrt\alpha/(2\sqrt\mu)\le M_u$.
+Moreover, $\nabla f(z)+u\in\partial F(z)$ and
+\[
+\|\nabla f(z)+u\|\le\|r\|+L_f\|z-w\|
+\le(\kappa+L_fM_u)\alpha.
+\]
+Strong convexity gives $F(z)-F^*\le\|\nabla f(z)+u\|^2/(2\mu)$ by minimizing its affine-quadratic lower bound. This proves~\eqref{eq:quadratic-stage}.
+
+For sharpness, take $f(x)=\tfrac12x^THx-b^Tx$ with
+\[
+H=\begin{pmatrix}2&1\\1&2\end{pmatrix},\qquad
+b=\begin{pmatrix}-1\\1\end{pmatrix},\qquad
+h=\iota_{\{x_1\ge0\}}.
+\]
+Here $\mu=1$, $L_f=3$, and $x^*=(0,1/2)^T$. The exact smoothed solution satisfies
+\[
+w_{\alpha,1}=-\frac{3\alpha}{2+3\alpha},\quad
+w_{\alpha,2}=\frac12+\frac{3\alpha}{2(2+3\alpha)},\quad
+z_\alpha=(0,w_{\alpha,2})^T.
+\]
+Direct substitution gives
+$F(z_\alpha)-F^*=9\alpha^2/[4(2+3\alpha)^2]$.
+Its ratio to $\alpha^2$ tends to $9/16>0$. The regularizer is extended-valued, and $F(w_\alpha)=+\infty$, so an unprojected finite-error statement would be false.
+\end{proof}
+
+\subsection{Proof of Theorem~\ref{thm:projected-work}}\label{app:projected-work}
+\begin{proof}
+First, the affine lower bound for $h$ at $(x^*,u^*)$ gives
+$h_\alpha(w)\ge h(x^*)+\langle u^*,w-x^*\rangle-\alpha\|u^*\|^2/2$.
+Combining this with strong convexity of $f$ and $u^*=-\nabla f(x^*)$ yields
+\[
+\Phi_\alpha(w)\ge F^*+\tfrac\mu2\|w-x^*\|^2-\tfrac\alpha2\|u^*\|^2.
+\]
+This also establishes coercivity and existence of the smoothed minimizer. Since $h_\alpha(w_0)\le h(w_0)$, the anchor comparison ensures that the initial objective gap at every stage is at most $D$. Existence and uniqueness of $x^*$ follow from strong convexity and an affine minorant of proper closed convex $h$ in finite dimensions.
+
+At a fixed stage, $\Phi_{\alpha_j}$ is $\mu$-strongly convex and $L_j$-smooth. The reference step and the acceptance rule imply
+\[
+\Phi_{\alpha_j}(w^+)-\Phi_{\alpha_j}^*
+\le \Phi_{\alpha_j}(w)-\Phi_{\alpha_j}^*
+-\frac{\|\nabla\Phi_{\alpha_j}(w)\|^2}{2L_j}
+\le(1-\mu/L_j)(\Phi_{\alpha_j}(w)-\Phi_{\alpha_j}^*).
+\]
+After $t$ accepted updates, the gap is at most $D\exp(-t\mu/L_j)$.
+Smooth convexity also gives
+$\|\nabla\Phi_{\alpha_j}(w)\|^2\le2L_j(\Phi_{\alpha_j}(w)-\Phi_{\alpha_j}^*)$.
+Formula~\eqref{eq:stage-work} therefore suffices to reach the stage residual threshold. At stage $J_\varepsilon$, Theorem~\ref{thm:projected-stage} makes the computed projected certificate at most $\varepsilon$, so the algorithm terminates. Unknown $D,C_{\rm rec},u^*$ are not used by the stopping rule.
+
+For the total count, $J_\varepsilon=O(\log(1/\varepsilon))$ and $\alpha_{J_\varepsilon}^{-1}=O(\varepsilon^{-1/2})$. The geometric sum satisfies
+$\sum_{j=0}^{J_\varepsilon}\alpha_j^{-1}\le\alpha_{J_\varepsilon}^{-1}/(1-\rho)$.
+The largest logarithmic term in~\eqref{eq:stage-work} is $O(\log(1/\varepsilon))$. Summing gives the stated order, including all stages. Each update and stage check uses a bounded number of loss, gradient and proximal calls, plus the prescribed finite trial work. Compact reconstruction and spectral checks cost $O(n\ell^2+\ell^3)$; fixed-size block base operations cost $O(n\ell)$ and are included. Hence the stated work accounting follows for these structures. Arbitrary proximal maps or base solves require their own cost bounds. Time limits in the experimental code can discard trials sooner; they cannot invalidate the reference decrease, but an overall time limit may prevent completion.
+\end{proof}
+
+
