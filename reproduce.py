@@ -91,7 +91,31 @@ def verify():
         protocol = json.loads((folder / 'protocol.json').read_text())
         assert hashlib.sha256((ROOT / 'experiments' / source).read_bytes()).hexdigest() == protocol['source_sha256']
     print('PASS: 165 scale records (156 successes, 9 failures) and 12 successful ablations.')
-    print('Stored-record checks do not rerun solvers; see docs/SCALE_BENCHMARKS.md.')
+    for directory, number, successes in [('guard_review',72,69),('fbe_review',36,36)]:
+        folder=ROOT/'paper_results'/directory
+        rows=json.loads((folder/'summary.json').read_text())
+        audit=json.loads((folder/'independent_audit.json').read_text())
+        assert len(rows)==len(audit)==number
+        assert sum(r['status']=='converged' for r in rows)==successes
+        byname={r['file']:r for r in rows}
+        for item in audit:
+            r=json.loads((folder/item['file']).read_text())
+            assert r==byname[item['file']]
+            assert abs(r['gap']-item['gap'])<=1e-10
+            assert (item['gap']<=r['tolerance'])==(r['status']=='converged')
+            assert r['max_linear_residual']<=1e-7 and r['max_directional_ratio']<=.5
+            assert r['dense_fallbacks']==0
+            assert all(t['threshold']>=t['accepted_value'] for t in r.get('guard_log',[]))
+        protocol=json.loads((folder/'protocol.json').read_text())
+        for name,h in protocol['source_sha256'].items():
+            assert hashlib.sha256((ROOT/'experiments'/name).read_bytes()).hexdigest()==h
+        for entry in json.loads((folder/'aggregate.json').read_text()):
+            rr=[r for r in rows if r['case']['id']==entry['case'] and r['method']==entry['method']]
+            assert len(rr)==3 and sorted(r['seconds'] for r in rr)[1]==entry['seconds']
+    with zipfile.ZipFile(ROOT/'paper_results/guard_pilots.zip') as archive:
+        assert archive.testzip() is None
+    print('PASS: 108 follow-up records, 105 successes, 3 retained time-budget failures.')
+    print('Stored-record checks do not rerun solvers; see docs/GUARD_BENCHMARKS.md.')
 
 
 def main():

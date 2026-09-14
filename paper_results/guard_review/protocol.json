@@ -1,0 +1,798 @@
+{
+  "source_sha256": {
+    "guard_benchmark.py": "074621aae2b56337caa532990178b53f0acec9e41d2a65ffe90ab20e13bf4048",
+    "scale_benchmark.py": "57ba5226fa35a1faaf4fbcb859b66a1fdac117712479dc22d8fed09c1b19a955",
+    "value_benchmark.py": "d77b832b18cdbe3e2fae1d2854b97a4ce367ad5c2b4be681005d223b91e9e234",
+    "run_experiments.py": "8a4b137b9b183b84a05dcf2611ce904b85b706c975adc662684e36ea599b751f"
+  },
+  "data_sha256": {
+    "s4000": "c9d029992c00b0b4ba0a3477d42f43ca96235a0d3f879ce67f7dac2d64cbe9c2",
+    "s16000": "565d721d878be89617d5d99090c3b9a186b8a51ebfd866f95d541597b3c874db",
+    "weak4000": "ad885d23e5d1a67dea2272dc16d2b9d353e77fe4702b404b9e24185e1ade1e83",
+    "group8000": "2eed47e2dc09c6aaccd1ee16f12f5f96cd98c15fb8c886707456bb39d75995af"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.3",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "warmup_seconds": 2,
+  "measurement_budget_seconds": 45,
+  "repetitions": 3,
+  "jobs": [
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "s4000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 0,
+      "file": "s4000_P-CONT-C_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 0,
+      "file": "s4000_P-CONT-D_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "s4000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "s4000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "s4000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 1,
+      "file": "s4000_P-CONT-C_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 1,
+      "file": "s4000_P-CONT-D_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "s4000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "s4000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "s4000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "s4000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 2,
+      "file": "s4000_P-CONT-D_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "s4000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "s4000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "s4000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "s4000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s4000",
+        "n": 4000
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 2,
+      "file": "s4000_P-CONT-C_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "s16000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 0,
+      "file": "s16000_P-CONT-C_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 0,
+      "file": "s16000_P-CONT-D_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "s16000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "s16000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "s16000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 1,
+      "file": "s16000_P-CONT-C_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 1,
+      "file": "s16000_P-CONT-D_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "s16000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "s16000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "s16000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "s16000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 2,
+      "file": "s16000_P-CONT-D_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "s16000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "s16000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "s16000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "s16000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "s16000",
+        "n": 16000
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 2,
+      "file": "s16000_P-CONT-C_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "weak4000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 0,
+      "file": "weak4000_P-CONT-C_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 0,
+      "file": "weak4000_P-CONT-D_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "weak4000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "weak4000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "weak4000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 1,
+      "file": "weak4000_P-CONT-C_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 1,
+      "file": "weak4000_P-CONT-D_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "weak4000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "weak4000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "weak4000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "weak4000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 2,
+      "file": "weak4000_P-CONT-D_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "weak4000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "weak4000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "weak4000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "weak4000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "weak4000",
+        "n": 4000,
+        "reg": 0.01
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 2,
+      "file": "weak4000_P-CONT-C_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 0,
+      "file": "group8000_P-CONT_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 0,
+      "file": "group8000_P-CONT-C_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 0,
+      "file": "group8000_P-CONT-D_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 0,
+      "file": "group8000_PQN_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 0,
+      "file": "group8000_R-FISTA_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 0,
+      "file": "group8000_PN-MF_r0.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 1,
+      "file": "group8000_P-CONT-C_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 1,
+      "file": "group8000_P-CONT-D_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 1,
+      "file": "group8000_PQN_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 1,
+      "file": "group8000_R-FISTA_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 1,
+      "file": "group8000_PN-MF_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 1,
+      "file": "group8000_P-CONT_r1.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-D",
+      "label": "P-CONT-D",
+      "rep": 2,
+      "file": "group8000_P-CONT-D_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PQN",
+      "label": "PQN",
+      "rep": 2,
+      "file": "group8000_PQN_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "R-FISTA",
+      "label": "R-FISTA",
+      "rep": 2,
+      "file": "group8000_R-FISTA_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "PN-MF",
+      "label": "PN-MF",
+      "rep": 2,
+      "file": "group8000_PN-MF_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT",
+      "label": "P-CONT",
+      "rep": 2,
+      "file": "group8000_P-CONT_r2.json"
+    },
+    {
+      "case": {
+        "id": "group8000",
+        "n": 8000,
+        "group": 5
+      },
+      "method": "P-CONT-C",
+      "label": "P-CONT-C",
+      "rep": 2,
+      "file": "group8000_P-CONT-C_r2.json"
+    }
+  ]
+}

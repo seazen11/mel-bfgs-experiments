@@ -1,0 +1,17 @@
+% Excerpt from the manuscript; uses its theorem environments and cross references.
+\subsection{A safeguard without reference-value evaluation}\label{sec:cheap-guard}
+The reference comparison is stronger than needed for Theorem~\ref{thm:projected-work}. It also incurs loss evaluations at points used only for acceptance. The following implementation variant removes that requirement.
+\begin{corollary}[Descent-threshold safeguard]\label{cor:cheap-guard}
+Under the assumptions of Theorem~\ref{thm:projected-work}, replace the reference-value test in Algorithm~\ref{alg:pcont} by
+\begin{equation}\label{eq:cheap-guard}
+\Phi_\alpha(\widehat w)\le T_\alpha(w):=
+\Phi_\alpha(w)-\frac{\|\nabla\Phi_\alpha(w)\|^2}{2(L_f+1/\alpha)}.
+\end{equation}
+On failure, use $w_g=w-\nabla\Phi_\alpha(w)/(L_f+1/\alpha)$. All stage and total-work bounds of that theorem remain valid. Every trial accepted by the reference-value test also satisfies~\eqref{eq:cheap-guard}. If the current and trial objective values are already available, the new test requires no additional objective evaluation.
+\end{corollary}
+The proof is in Appendix~\ref{app:cheap-guard}. We call this variant P-CONT-D. P-CONT-C instead keeps the reference test and caches its trial value, removing only duplicate evaluation. These names distinguish an acceptance-rule change from caching. The corollary is a direct use of the descent lemma, not a new complexity rate or an independent claim of methodological originality. The exact-arithmetic guarantee does not authorize a fixed positive acceptance allowance. Our implementation uses a strict computed comparison and records the margins; it does not provide interval-arithmetic certification.
+
+\subsection{Proof of Corollary~\ref{cor:cheap-guard}}\label{app:cheap-guard}
+\begin{proof}
+The function $\Phi_\alpha$ has Lipschitz gradient with constant $L_\alpha=L_f+1/\alpha$. Its descent lemma gives $\Phi_\alpha(w_g)\le T_\alpha(w)$. Thus either an accepted trial or the reference replacement satisfies $\Phi_\alpha(w^+)\le T_\alpha(w)$. Strong convexity then gives exactly the contraction used in Appendix~\ref{app:projected-work}. The anchor bound, residual estimate, stage count and geometric summation in that proof do not change. The inclusion of accepted trials follows from $\Phi_\alpha(\widehat w)\le\Phi_\alpha(w_g)\le T_\alpha(w)$. Evaluating the threshold uses only an existing objective value, a gradient norm and the known Lipschitz bound. A cached line-search value suffices for the comparison. A finite trial budget and the gradient replacement retain bounded work on failure. No improvement of the asymptotic oracle order follows from this reduction in evaluations.
+\end{proof}

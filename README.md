@@ -10,7 +10,21 @@ three current figure groups, four historical figure groups, multiple review camp
 
 [中文说明](README.zh-CN.md) · [Data](docs/DATA.md) · [Results](docs/RESULTS.zh-CN.md) · [Provenance](provenance/README.md)
 
-## Latest study: version 2.1.0
+## Latest study: version 2.2.0
+
+Two controlled follow-up batches add **108 measurements: 105 successes and three time-budget failures**. All original dual gaps were independently recomputed. P-CONT-D retains the proved work bound while avoiding reference-value evaluations. A caching-only control separates this change from duplicate objective evaluation.
+
+At n=4000, loss evaluations fall from 248 to 200 to 152 while all three variants use 700 SSN updates. Timing ranges overlap. The weak-regularization SSN cost remains. In a separate exact-envelope batch, FBE-LBFGS has a lower median than P-CONT-D in all four settings, and R-FISTA has a lower median than both. These results do **not** establish general superiority or publication-level originality.
+
+- [Run and audit both batches](docs/GUARD_BENCHMARKS.md)
+- [Safeguard results](docs/GUARD_RESULTS.md) and [FBE results](docs/FBE_RESULTS.md)
+- [Research audit and unresolved originality gap](docs/RESEARCH_AUDIT_v2.2.md)
+- [Proved descent safeguard excerpt](docs/descent_safeguard.tex)
+- [Raw safeguard records](paper_results/guard_review) and [raw exact-envelope records](paper_results/fbe_review)
+
+The FBE method is our implementation of the published Stella--Themelis--Patrinos framework, not a new algorithm or author-code reproduction. Earlier releases remain unchanged. Timing batches must not be pooled.
+
+## Scale study: version 2.1.0
 
 The scale campaign now reaches **16,000 variables and 2,000 samples**, and adds
 matrix-free proximal Newton, projected continuation, and a safeguard ablation.
@@ -56,8 +70,8 @@ These results do not support general computational superiority of MEL.
 - [Earlier 231-run reproduction audit](paper_results/reproduction_audit.json)
 
 The two regularizers are the l1 penalty and a nonoverlapping group l2 penalty.
-Dense PN comparisons stop at n=400; matrix-free PN and stochastic baselines
-remain untested. Current PQN/PN implementations are representative deterministic
+In the v2.0 batch, dense PN comparisons stop at n=400 and matrix-free PN
+was untested; v2.1 adds matrix-free PN. Stochastic baselines remain untested. Current PQN/PN implementations are representative deterministic
 models, not the neighboring authors' software. See the protocol for limits.
 
 ## Method and scope

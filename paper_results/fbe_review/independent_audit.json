@@ -1,0 +1,254 @@
+[
+  {
+    "file": "s4000_FBE-LBFGS_r0.json",
+    "gap": 9.102099681711218e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s4000_P-CONT-D_r0.json",
+    "gap": 9.458883659836659e-07,
+    "status": "converged",
+    "logged_guard_checks": 48,
+    "minimum_logged_margin": 3.762389899630847e-08
+  },
+  {
+    "file": "s4000_R-FISTA_r0.json",
+    "gap": 8.914581005811661e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s4000_P-CONT-D_r1.json",
+    "gap": 9.458883659836659e-07,
+    "status": "converged",
+    "logged_guard_checks": 48,
+    "minimum_logged_margin": 3.762389899630847e-08
+  },
+  {
+    "file": "s4000_R-FISTA_r1.json",
+    "gap": 8.914581005811661e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s4000_FBE-LBFGS_r1.json",
+    "gap": 9.102099681711218e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s4000_R-FISTA_r2.json",
+    "gap": 8.914581005811661e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s4000_FBE-LBFGS_r2.json",
+    "gap": 9.102099681711218e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s4000_P-CONT-D_r2.json",
+    "gap": 9.458883659836659e-07,
+    "status": "converged",
+    "logged_guard_checks": 48,
+    "minimum_logged_margin": 3.762389899630847e-08
+  },
+  {
+    "file": "s16000_FBE-LBFGS_r0.json",
+    "gap": 7.685133415341605e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s16000_P-CONT-D_r0.json",
+    "gap": 8.837149590096641e-07,
+    "status": "converged",
+    "logged_guard_checks": 93,
+    "minimum_logged_margin": 1.3677947108270416e-09
+  },
+  {
+    "file": "s16000_R-FISTA_r0.json",
+    "gap": 9.90672627767912e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s16000_P-CONT-D_r1.json",
+    "gap": 8.837149590096641e-07,
+    "status": "converged",
+    "logged_guard_checks": 93,
+    "minimum_logged_margin": 1.3677947108270416e-09
+  },
+  {
+    "file": "s16000_R-FISTA_r1.json",
+    "gap": 9.90672627767912e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s16000_FBE-LBFGS_r1.json",
+    "gap": 7.685133415341605e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s16000_R-FISTA_r2.json",
+    "gap": 9.90672627767912e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s16000_FBE-LBFGS_r2.json",
+    "gap": 7.685133415341605e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "s16000_P-CONT-D_r2.json",
+    "gap": 9.656931894723095e-07,
+    "status": "converged",
+    "logged_guard_checks": 92,
+    "minimum_logged_margin": 1.3677947108270416e-09
+  },
+  {
+    "file": "weak4000_FBE-LBFGS_r0.json",
+    "gap": 9.326689631924956e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "weak4000_P-CONT-D_r0.json",
+    "gap": 2.9932788028069757e-07,
+    "status": "converged",
+    "logged_guard_checks": 34,
+    "minimum_logged_margin": 5.129155736249835e-08
+  },
+  {
+    "file": "weak4000_R-FISTA_r0.json",
+    "gap": 9.489485547700682e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "weak4000_P-CONT-D_r1.json",
+    "gap": 2.9932788028069757e-07,
+    "status": "converged",
+    "logged_guard_checks": 34,
+    "minimum_logged_margin": 5.129155736249835e-08
+  },
+  {
+    "file": "weak4000_R-FISTA_r1.json",
+    "gap": 9.489485547700682e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "weak4000_FBE-LBFGS_r1.json",
+    "gap": 9.326689631924956e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "weak4000_R-FISTA_r2.json",
+    "gap": 9.489485547700682e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "weak4000_FBE-LBFGS_r2.json",
+    "gap": 9.326689631924956e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "weak4000_P-CONT-D_r2.json",
+    "gap": 2.9932788028069757e-07,
+    "status": "converged",
+    "logged_guard_checks": 34,
+    "minimum_logged_margin": 5.129155736249835e-08
+  },
+  {
+    "file": "group8000_FBE-LBFGS_r0.json",
+    "gap": 8.745607590144103e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "group8000_P-CONT-D_r0.json",
+    "gap": 9.305926426334335e-07,
+    "status": "converged",
+    "logged_guard_checks": 40,
+    "minimum_logged_margin": 4.0011142177220904e-09
+  },
+  {
+    "file": "group8000_R-FISTA_r0.json",
+    "gap": 9.50291646661678e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "group8000_P-CONT-D_r1.json",
+    "gap": 9.305926426334335e-07,
+    "status": "converged",
+    "logged_guard_checks": 40,
+    "minimum_logged_margin": 4.0011142177220904e-09
+  },
+  {
+    "file": "group8000_R-FISTA_r1.json",
+    "gap": 9.50291646661678e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "group8000_FBE-LBFGS_r1.json",
+    "gap": 8.745607590144103e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "group8000_R-FISTA_r2.json",
+    "gap": 9.50291646661678e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "group8000_FBE-LBFGS_r2.json",
+    "gap": 8.745607590144103e-07,
+    "status": "converged",
+    "logged_guard_checks": 0,
+    "minimum_logged_margin": null
+  },
+  {
+    "file": "group8000_P-CONT-D_r2.json",
+    "gap": 9.305926426334335e-07,
+    "status": "converged",
+    "logged_guard_checks": 40,
+    "minimum_logged_margin": 4.0011142177220904e-09
+  }
+]

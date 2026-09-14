@@ -1,3 +1,7 @@
+> **v2.2.0 更新：**新增108次正式测量，105次达标，3次超时。已独立复核全部原问题间隙。新P-CONT-D保留理论保障并减少参考求值，但没有消除嵌套SSN成本。四组精确包络对照中FBE-LBFGS均比P-CONT-D中位时间低，R-FISTA又低于二者。没有声称已达到投稿原创性门槛。
+>
+> [复现说明](docs/GUARD_BENCHMARKS.md) · [保障结果](docs/GUARD_RESULTS.md) · [FBE结果](docs/FBE_RESULTS.md) · [投稿限制审查](docs/RESEARCH_AUDIT_v2.2.md)。旧批次完整保留。
+
 > **v2.1.0 更新：**规模扩大至16,000维和2,000样本，新增矩阵自由PN和投影continuation。165次主测量中156次达标、9次失败；12次保障消融全部达标。P-CONT在8/9组中快于CONT，但没有一组总体最快。新增投影误差与有界试探工作定理，不声称固定内存外层无条件超线性。
 >
 > [运行说明](docs/SCALE_BENCHMARKS.md) · [完整结果](docs/SCALE_RESULTS.md) · [消融](docs/SCALE_ABLATION.md) · [理论推进及下一步方向](docs/PROJECTED_THEORY.md)。下文旧批次按原样保留。
